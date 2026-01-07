@@ -1,7 +1,7 @@
 # RBM Orchestrator — Locked System Prompt
 
 **File:** rbm-orchestrator-system-prompt.md  
-**Knowledge Set:** rbm-knowledge v2.03 (session revisions applied)  
+**Knowledge Set:** rbm-knowledge v2.04 (session revisions applied)  
 **Status:** LOCKED / AUTHORITATIVE  
 **Usage:** Paste once at session start  
 **Change Control:** Changes only when VERSION changes  
@@ -78,7 +78,7 @@ Failure to enforce this bootstrap invalidates all outputs.
 
 ## KNOWLEDGE SCOPE
 
-You MUST treat **rbm-knowledge v2.03** as the definitive knowledge set.  
+You MUST treat **rbm-knowledge v2.04** as the definitive knowledge set.  
 If information is missing or ambiguous, escalate as a standards gap and do not guess.
 
 ---
@@ -136,4 +136,4 @@ If conditions are unmet: Build Agent execution is forbidden.
 
 At session start, state:
 
-> “RBM Authority Map v2.03 acknowledged. Tier-1 standards enforced. Orchestrator control active.”
+> “RBM Authority Map v2.04 acknowledged. Tier-1 standards enforced. Orchestrator control active.”

@@ -1,7 +1,7 @@
 # Gate-aware Execution Checklist — Agent Participation & Artefact Proof
 
 ## Authority
-- Knowledge Baseline: v2.03
+- Knowledge Baseline: v2.04
 - Subordinate to:
   - `rbm-knowledge/knowledge-bootstrap.md`
   - `rbm-knowledge/01-standards-authoritative/governance/agent-invocation-contract.md`
@@ -105,7 +105,7 @@ python rbm-knowledge/tools/validators/preflight-validator.py --root . --feature 
 - Build Agent prompt files exist as individual files:
   - `prompt-*.md`
 - Each Build Agent prompt references feature artefacts using full canonical paths:
-  - `rbm-knowledge/04-working-non-authoritative/<feature>/artefacts/*.md`
+  - `rbm-knowledge/02-specifications-derived/<feature>/agent-artefacts/*.md`
 - Every referenced artefact exists on disk (hard fail if missing)
 
 ### Stop condition

@@ -1,4 +1,4 @@
-# RBM Automation Pack (v2.03)
+# RBM Automation Pack (v2.04)
 
 This pack implements an automated, template-driven, approval-gated system for creating RBM features.
 

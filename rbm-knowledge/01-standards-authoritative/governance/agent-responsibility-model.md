@@ -1,4 +1,4 @@
-# Agent Responsibility Model (v2.03)
+# Agent Responsibility Model (v2.04)
 
 Generated: 2025-12-28 14:49:30
 

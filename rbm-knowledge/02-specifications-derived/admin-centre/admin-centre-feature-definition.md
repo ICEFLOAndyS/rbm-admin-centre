@@ -25,7 +25,7 @@
 
 ## Authority & Status
 - Authority level: Derived (Gate 2)
-- Knowledge Baseline: v2.03
+- Knowledge Baseline: v2.04
 - Precedence: Subordinate to Bootstrap Contract, AUTHORITATIVE standards, governance & security policies, and RBM design system
 - Gate 2: In progress
 

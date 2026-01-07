@@ -10,7 +10,7 @@ Admin Centre
 Gate 2 — Feature Definition Approval
 
 ## Knowledge Baseline
-- Version: v2.03
+- Version: v2.04
 - Authority: rbm-knowledge/version
 - Precedence enforced per rbm-knowledge/knowledge-bootstrap.md
 
@@ -72,7 +72,7 @@ No deviations are permitted without a formally approved exception.
 
 ## Decision Authority
 ChatGPT Orchestrator Agent  
-(acting under RBM Knowledge Baseline v2.03)
+(acting under RBM Knowledge Baseline v2.04)
 
 ## Decision Date
 2026-01-05

@@ -10,7 +10,7 @@ Admin Centre
 Gate 0 — Feature Intent Validation
 
 ## Knowledge Baseline
-- Version: v2.03
+- Version: v2.04
 - Authority: rbm-knowledge/version
 - Precedence enforced per knowledge-bootstrap.md
 
@@ -67,7 +67,7 @@ Failure to address these conditions will block Gate 1 approval.
 
 ## Decision Authority
 ChatGPT Orchestrator Agent  
-(Acting under RBM Knowledge Baseline v2.03)
+(Acting under RBM Knowledge Baseline v2.04)
 
 ## Decision Date
 2026-01-05

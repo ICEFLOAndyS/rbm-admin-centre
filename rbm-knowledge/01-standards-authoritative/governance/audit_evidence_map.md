@@ -29,7 +29,7 @@ unauthorised standards override.
 
 ### Authoritative Control
 - `rbm-knowledge/knowledge-bootstrap.md`
-- Governance Index: `01-standards-authoritative/governance/governance-index.md`
+- Governance Index: `docs/governance/governance-index.md`
 
 ### Required Evidence
 | Evidence Item | Description |

@@ -1,5 +1,5 @@
 # RBM Knowledge Bootstrap Contract
-Version: v2.03
+Version: v2.04
 Status: AUTHORITATIVE
 Last Updated: 2026-01-04
 

@@ -1,6 +1,6 @@
-# Personas v2.03 – Folder & Content Manifest
+# Personas v2.04 – Folder & Content Manifest
 
-**Source:** `Personas v2.03.zip`
+**Source:** `Personas v2.04.zip`
 
 **Detected root:** `/`
 

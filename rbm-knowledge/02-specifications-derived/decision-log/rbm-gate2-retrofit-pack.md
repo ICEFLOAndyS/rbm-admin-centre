@@ -1,7 +1,7 @@
 # RBM Gate 2 Decision Retrofit Pack
 
 **Scope:** Retrofit existing RBM features to comply with standardized Gate-2 Decision IDs.  
-**Baseline:** RBM Knowledge v2.03+  
+**Baseline:** RBM Knowledge v2.04+  
 **Outcome:** Every feature has (a) a Gate-2 decision log, (b) a Gate-2 prompt enforcement block, and (c) an index entry.
 
 ## A. Retrofit Steps (Apply Per Feature)

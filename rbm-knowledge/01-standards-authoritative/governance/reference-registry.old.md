@@ -61,7 +61,7 @@ Includes:
 1. **ref-std-orchestrator-governance** — Orchestrator Governance Standard  
    - type: internal  
    - path: `01-standards-authoritative/governance/orchestrator-governance.md`  
-   - version-context: v2.03  
+   - version-context: v2.04  
    - tags: common, governance  
    - status: active
 

@@ -1,6 +1,6 @@
 # RBM End-to-End Controlled Delivery Process
 
-**Applies to:** rbm-knowledge v2.03 (revised)  
+**Applies to:** rbm-knowledge v2.04 (revised)  
 **Authority:** Tier-1 (Normative)  
 
 ## Purpose

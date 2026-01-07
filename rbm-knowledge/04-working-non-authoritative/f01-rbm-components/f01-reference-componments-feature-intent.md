@@ -57,11 +57,11 @@ When making this translation, the rbm-design-system must be complied with.
 ## Target Personas
 The RBM personas that this feature is intended to support are as follows:
 
-content-creators persona category:
-1) 02-specifications-derived/personas/content-creators/content-pack-author.md
-2) 02-specifications-derived/personas/content-creators/content-author.md
-3) 02-specifications-derived/personas/content-creators/runbook-engineer.md
-4) 02-specifications-derived/personas/content-creators/team-leader.md
+content_creators persona category:
+1) 02-specifications-derived/personas/content_creators/content-pack-author.md
+2) 02-specifications-derived/personas/content_creators/content-author.md
+3) 02-specifications-derived/personas/content_creators/runbook-engineer.md
+4) 02-specifications-derived/personas/content_creators/team-leader.md
 
 ---
 

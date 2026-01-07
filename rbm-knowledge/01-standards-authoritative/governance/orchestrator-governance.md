@@ -20,7 +20,7 @@ Agents MUST resolve artefacts in the following order:
   - `rbm-knowledge/03-prompt-packs-derived/<feature>/`
 - **Working drafts** MUST be stored under:
   - `rbm-knowledge/04-working-non-authoritative/<feature>/`
-**Version:** v2.03  
+**Version:** v2.04  
 **Status:** Authoritative  
 **Owner:** Product & Architecture Governance  
 **Applies to:** All RBM features, agents, and artefacts  
@@ -359,7 +359,7 @@ python rbm-knowledge/tools/validators/preflight-validator.py --root . --feature 
 - Build Agent prompt files exist as individual files:
   - `prompt-*.md`
 - Each Build Agent prompt references feature artefacts using full canonical paths:
-  - `rbm-knowledge/04-working-non-authoritative/<feature>/artefacts/*.md`
+  - `rbm-knowledge/02-specifications-derived/<feature>/agent-artefacts/*.md`
 - Every referenced artefact exists on disk (hard fail if missing)
 
 ### Stop condition

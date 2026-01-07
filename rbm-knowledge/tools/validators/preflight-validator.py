@@ -7,7 +7,7 @@ before ServiceNow IDE Build Agent invocation.
 
 Usage:
   python tools/validators/preflight-validator.py --feature content-packs --root .
-  python tools/validators/preflight-validator.py --path ./04-working-non-authoritative/content-packs
+  python tools/validators/preflight-validator.py --path ./02-specifications-derived/content-packs
 
 Exit codes:
   0 = PASS
@@ -38,6 +38,10 @@ FORBIDDEN_UI_TOKENS = [
     r"\bxml ui\b",
 ]
 
+FORBIDDEN_PATH_TOKENS = [
+    r"\bDEPRECATED-specifications-derived (DO NOT USE)\b",
+]
+
 # Require an approval block for APPROVED gate artefacts
 APPROVAL_SECTION_RE = re.compile(r"^##\s*Approval\s*$", re.IGNORECASE | re.MULTILINE)
 APPROVAL_FIELDS = [
@@ -50,7 +54,7 @@ APPROVAL_FIELDS = [
 # Artefact existence preflight
 # -----------------------------
 
-CANONICAL_PATH_RE = re.compile(r"\brbm-knowledge/04-working-non-authoritative/(?P<feature>[a-z0-9\-]+)/artefacts/(?P<file>[a-z0-9\-]+\.md)\b")
+CANONICAL_PATH_RE = re.compile(r"\brbm-knowledge/02-specifications-derived/(?P<feature>[a-z0-9\-]+)/agent-artefacts/(?P<file>[a-z0-9\-]+\.md)\b")
 
 def extract_canonical_artefact_paths(text: str):
     """Return a sorted list of canonical artefact paths referenced in a prompt."""
@@ -59,7 +63,7 @@ def extract_canonical_artefact_paths(text: str):
 def validate_prompt_artefact_references(root_path, feature: str, errors: list):
     """Validate Build Agent prompt packs reference existing artefacts by full canonical path."""
     prompts_dir = root_path / "rbm-knowledge" / "03-prompt-packs-derived" / feature
-    artefacts_dir = root_path / "rbm-knowledge" / "04-working-non-authoritative" / feature / "artefacts"
+    artefacts_dir = root_path / "rbm-knowledge" / "02-specifications-derived" / feature / "artefacts"
 
     if not prompts_dir.exists():
         errors.append(f"Missing prompts folder: {prompts_dir.as_posix()}")
@@ -87,7 +91,7 @@ def validate_prompt_artefact_references(root_path, feature: str, errors: list):
         referenced.update(refs)
 
     if not referenced:
-        errors.append("No canonical artefact references found in Build Agent prompts (expected rbm-knowledge/04-working-non-authoritative/<feature>/artefacts/*.md)")
+        errors.append("No canonical artefact references found in Build Agent prompts (expected rbm-knowledge/02-specifications-derived/<feature>/agent-artefacts/*.md)")
         return
 
     for ref in sorted(referenced):
@@ -128,6 +132,13 @@ def find_forbidden_ui(text: str) -> List[str]:
             hits.append(pat)
     if re.search(r"\bhorizon\b", text, flags=re.IGNORECASE) and re.search(r"\b(ui builder|declarative|layout)\b", text, flags=re.IGNORECASE):
         hits.append(r"\bhorizon\b (with ui builder/declarative/layout context)")
+    return hits
+
+def find_forbidden_paths(text: str) -> List[str]:
+    hits = []
+    for pat in FORBIDDEN_PATH_TOKENS:
+        if re.search(pat, text, flags=re.IGNORECASE):
+            hits.append(pat)
     return hits
 
 def build_authorised(text: str) -> bool:
@@ -171,7 +182,16 @@ try:
 except Exception as ex:
     errors.append(f"Artefact reference validation error: {ex}")
 
-    g4_found = None
+    
+# Forbidden canonical path token scan (prevents legacy / prohibited folder references)
+for p in list(feature_path.rglob("*.md")) + list((repo_root / "rbm-knowledge/02-specifications-derived" / feature_path.name / "agent-artefacts").rglob("*.md")):
+    if p.exists():
+        txt = read_text(p)
+        hits = find_forbidden_paths(txt)
+        if hits:
+            errors.append(f"{p.as_posix()}: Forbidden canonical path token(s) detected: {', '.join(hits)}")
+
+g4_found = None
     for opt in G4_OPTIONS:
         if (feature_path / opt).exists():
             g4_found = opt
@@ -230,7 +250,7 @@ except Exception as ex:
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--root", default=".", help="Repository root (default: .)")
-    ap.add_argument("--feature", help="Feature folder name under 04-working-non-authoritative/")
+    ap.add_argument("--feature", help="Feature folder name under 02-specifications-derived/")
     ap.add_argument("--path", help="Explicit path to feature folder (overrides --feature)")
     args = ap.parse_args()
 
@@ -240,7 +260,7 @@ kb_root = (root / "rbm-knowledge") if (root / "rbm-knowledge").exists() else roo
 if args.path:
     feature_path = Path(args.path).resolve()
 elif args.feature:
-    feature_path = kb_root / "04-working-non-authoritative" / args.feature
+    feature_path = kb_root / "02-specifications-derived" / args.feature
 else:
     ap.error("Provide either --feature or --path")
 
