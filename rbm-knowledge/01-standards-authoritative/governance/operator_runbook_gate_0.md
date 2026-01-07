@@ -18,7 +18,7 @@ It exists to ensure:
 
 This runbook implements **Gate 0 – Knowledge Bootstrap** as defined in:
 - `rbm-knowledge/knowledge-bootstrap.md`
-- `docs/governance/governance-index.md`
+- `01-standards-authoritative/governance/governance-index.md`
 
 ---
 

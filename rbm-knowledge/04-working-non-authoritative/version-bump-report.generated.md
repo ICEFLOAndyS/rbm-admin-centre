@@ -21,7 +21,7 @@
 - `rbm-knowledge/01-standards-authoritative/governance/orchestrator-governance.md`
 - `rbm-knowledge/01-standards-authoritative/governance/rbm-baseline-release-manifest.md`
 - `rbm-knowledge/01-standards-authoritative/governance/reference-registry.md`
-- `rbm-knowledge/01-standards-authoritative/governance/reference-registry.old.md`
+- `rbm-knowledge/01-standards-authoritative/governance/reference-registry.md`
 - `rbm-knowledge/01-standards-authoritative/governance/ui-contract-standard.md`
 - `rbm-knowledge/02-specifications-derived/admin-centre/README.md`
 - `rbm-knowledge/02-specifications-derived/admin-centre/admin-centre-build-execution-plan.md`
@@ -29,9 +29,9 @@
 - `rbm-knowledge/02-specifications-derived/admin-centre/ide-operator-card.md`
 - `rbm-knowledge/02-specifications-derived/admin-centre/servicenow-ide-instructions.md`
 - `rbm-knowledge/02-specifications-derived/architecture/readme.md`
-- `rbm-knowledge/02-specifications-derived/decision-log/Gate0-Decision-Record-Admin-Center.md`
-- `rbm-knowledge/02-specifications-derived/decision-log/Gate1-Decision-Record-Admin-Center.md`
-- `rbm-knowledge/02-specifications-derived/decision-log/Gate2-Decision-Record-Admin-Center.md`
+- `rbm-knowledge/02-specifications-derived/decision-log/gate0-decision-record-admin-centre.md`
+- `rbm-knowledge/02-specifications-derived/decision-log/gate1-decision-record-admin-centre.md`
+- `rbm-knowledge/02-specifications-derived/decision-log/gate2-decision-record-admin-centre.md`
 - `rbm-knowledge/02-specifications-derived/decision-log/rbm-gate2-decision-index.md`
 - `rbm-knowledge/02-specifications-derived/decision-log/rbm-gate2-retrofit-pack.md`
 - `rbm-knowledge/02-specifications-derived/design/readme.md`

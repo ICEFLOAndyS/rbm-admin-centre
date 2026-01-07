@@ -19,12 +19,12 @@
 - Admin-Center-Build-Agent-Prompt-Pack-v2.03.zip
 
 ### Agent Artefacts
-- admin-center-agent-artefacts-pack.zip
+- admin-centre-agent-artefacts-pack/
 
 ### Governance
-- Gate0-Decision-Record-Admin-Center.md
-- Gate1-Decision-Record-Admin-Center.md
-- Gate2-Decision-Record-Admin-Center.md
+- gate0-decision-record-admin-centre.md
+- gate1-decision-record-admin-centre.md
+- gate2-decision-record-admin-centre.md
 
 ### Validation
 - post-build-validation-checklist.md
