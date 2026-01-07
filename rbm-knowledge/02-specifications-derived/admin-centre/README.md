@@ -6,7 +6,7 @@
 - Gate 2: Approved
 
 ## Knowledge Baseline
-- RBM Knowledge Baseline v2.02 (authoritative)
+- RBM Knowledge Baseline v2.03 (authoritative)
 
 ## Artefacts in this Folder
 
@@ -16,11 +16,10 @@
 
 ### Build & Delivery
 - Admin-Center-Build-Execution-Plan.md
-- Build Agent prompts (individual `.md` files) — `rbm-knowledge/03-prompt-packs-derived/admin-centre/`
+- Admin-Center-Build-Agent-Prompt-Pack-v2.03.zip
 
-### Agent Artefacts (inputs to prompt engineering and build validation)
-- Stored as individual `.md` files in:
-  - `rbm-knowledge/04-working-non-authoritative/admin-centre/artefacts/`
+### Agent Artefacts
+- admin-center-agent-artefacts-pack.zip
 
 ### Governance
 - Gate0-Decision-Record-Admin-Center.md
@@ -34,8 +33,7 @@
 ## Usage Order
 1. Review Feature Definition
 2. Follow ServiceNow IDE Instructions
-3. Review agent artefacts under `rbm-knowledge/04-working-non-authoritative/admin-centre/artefacts/`
-4. Execute Build Agent prompts under `rbm-knowledge/03-prompt-packs-derived/admin-centre/`
-5. Complete Post-Build Validation Checklist
+3. Execute Build Agent prompts (v2.03)
+4. Complete Post-Build Validation Checklist
 
 No artefact in this folder may override authoritative standards.

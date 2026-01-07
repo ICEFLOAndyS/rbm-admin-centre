@@ -11,7 +11,7 @@ Only these are permitted at the repository root:
 - `01-standards-authoritative`
 - `02-specifications-derived`
 - `03-prompt-packs-derived`
-- `04-working-non-authoritative`
+- `99-working-non-authoritative`
 
 ## 3. Folder + file naming rules
 ### 3.1 Separators

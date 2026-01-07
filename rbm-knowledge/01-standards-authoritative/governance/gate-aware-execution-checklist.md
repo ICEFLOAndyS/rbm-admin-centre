@@ -1,7 +1,7 @@
 # Gate-aware Execution Checklist — Agent Participation & Artefact Proof
 
 ## Authority
-- Knowledge Baseline: v2.02
+- Knowledge Baseline: v2.03
 - Subordinate to:
   - `rbm-knowledge/knowledge-bootstrap.md`
   - `rbm-knowledge/01-standards-authoritative/governance/agent-invocation-contract.md`
@@ -18,8 +18,8 @@ Enforce deterministic agent participation per gate and require artefact proof pr
 1. Persona & User Journeys Agent
 
 ### Artefact proof (required)
-- Personas artefact (stored as an individual `.md` file under `rbm-knowledge/04-working-non-authoritative/<feature>/artefacts/`, canonical path recorded)
-- User journeys artefact (stored as an individual `.md` file under `rbm-knowledge/04-working-non-authoritative/<feature>/artefacts/`, canonical path recorded)
+- Personas artefact (feature-scoped, canonical path recorded)
+- User journeys artefact (feature-scoped, canonical path recorded)
 
 ### Checklist
 - [ ] Feature intent exists under `rbm-knowledge/04-working-non-authoritative/<feature>/`
@@ -36,8 +36,8 @@ Enforce deterministic agent participation per gate and require artefact proof pr
 2. Security Agent
 
 ### Artefact proof (required)
-- Architecture: tables + ACL intent + enforcement points (stored under `rbm-knowledge/04-working-non-authoritative/<feature>/artefacts/`)
-- Security: required controls + abuse cases + negative tests (stored under `rbm-knowledge/04-working-non-authoritative/<feature>/artefacts/`)
+- Architecture: tables + ACL intent + enforcement points
+- Security: required controls + abuse cases + negative tests
 
 ### Checklist
 - [ ] Architect artefact exists and is referenced by canonical path
@@ -56,10 +56,10 @@ Enforce deterministic agent participation per gate and require artefact proof pr
 4. Prompt Engineer Agent
 
 ### Artefact proof (required)
-- Platform design artefact (APIs, validation, audit, rollback) — `rbm-knowledge/04-working-non-authoritative/<feature>/artefacts/`
-- UI architecture artefact (React+TS, RBM components first) — `rbm-knowledge/04-working-non-authoritative/<feature>/artefacts/`
-- QA test plan + evidence checklist — `rbm-knowledge/04-working-non-authoritative/<feature>/artefacts/`
-- Build Agent prompts as **individual `.md` files** in the feature folder under `rbm-knowledge/03-prompt-packs-derived/<feature>/` (includes Prompt 00 bootstrap + scope declaration).
+- Platform design artefact (APIs, validation, audit, rollback)
+- UI architecture artefact (React+TS, RBM components first)
+- QA test plan + evidence checklist
+- Build Agent prompt pack (includes Prompt 00 bootstrap + scope declaration)
 
 ### Checklist
 - [ ] Platform design artefact exists and is referenced by canonical path
@@ -80,3 +80,33 @@ Execution MUST STOP immediately if:
 - a required agent artefact is missing
 - artefacts are not referenced by canonical path
 - a gate is passed without artefact proof
+
+---
+
+## Automated Artefact-Existence Preflight (mandatory before Build Agent)
+
+Before any ServiceNow IDE Build Agent invocation, the Orchestrator MUST run the automated preflight validator and persist the output as evidence.
+
+### Command (repo root)
+
+**macOS/Linux (bash):**
+```bash
+python rbm-knowledge/tools/validators/preflight-validator.py --root . --feature <feature> | tee rbm-knowledge/04-working-non-authoritative/<feature>/preflight-report.generated.md
+```
+
+**Windows (PowerShell):**
+```powershell
+python rbm-knowledge/tools/validators/preflight-validator.py --root . --feature <feature> | Tee-Object -FilePath rbm-knowledge/04-working-non-authoritative/<feature>/preflight-report.generated.md
+```
+
+### What it validates (minimum)
+- No ZIP-based prompt/artefact packs under:
+  - `rbm-knowledge/03-prompt-packs-derived/<feature>/`
+- Build Agent prompt files exist as individual files:
+  - `prompt-*.md`
+- Each Build Agent prompt references feature artefacts using full canonical paths:
+  - `rbm-knowledge/04-working-non-authoritative/<feature>/artefacts/*.md`
+- Every referenced artefact exists on disk (hard fail if missing)
+
+### Stop condition
+If preflight fails, the Orchestrator MUST STOP (Gate failure) and must not approve Build Agent execution.

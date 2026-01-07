@@ -46,6 +46,61 @@ APPROVAL_FIELDS = [
     re.compile(r"Approval\s+ref\s*:\s*\S+", re.IGNORECASE),
 ]
 
+# -----------------------------
+# Artefact existence preflight
+# -----------------------------
+
+CANONICAL_PATH_RE = re.compile(r"\brbm-knowledge/04-working-non-authoritative/(?P<feature>[a-z0-9\-]+)/artefacts/(?P<file>[a-z0-9\-]+\.md)\b")
+
+def extract_canonical_artefact_paths(text: str):
+    """Return a sorted list of canonical artefact paths referenced in a prompt."""
+    return sorted({m.group(0) for m in CANONICAL_PATH_RE.finditer(text)})
+
+def validate_prompt_artefact_references(root_path, feature: str, errors: list):
+    """Validate Build Agent prompt packs reference existing artefacts by full canonical path."""
+    prompts_dir = root_path / "rbm-knowledge" / "03-prompt-packs-derived" / feature
+    artefacts_dir = root_path / "rbm-knowledge" / "04-working-non-authoritative" / feature / "artefacts"
+
+    if not prompts_dir.exists():
+        errors.append(f"Missing prompts folder: {prompts_dir.as_posix()}")
+        return
+
+    # ServiceNow Build Agent must consume individual prompt files.
+    zip_files = list(prompts_dir.glob("*.zip"))
+    if zip_files:
+        for zf in zip_files:
+            errors.append(f"ZIP prompt/artefact pack not permitted in prompts folder: {zf.name}")
+
+    prompt_files = sorted(prompts_dir.glob("prompt-*.md"))
+    if not prompt_files:
+        errors.append(f"No Build Agent prompt files found (expected prompt-*.md): {prompts_dir.as_posix()}")
+        return
+
+    if not artefacts_dir.exists():
+        errors.append(f"Missing artefacts folder: {artefacts_dir.as_posix()}")
+        return
+
+    referenced = set()
+    for pf in prompt_files:
+        txt = read_text(pf)
+        refs = extract_canonical_artefact_paths(txt)
+        referenced.update(refs)
+
+    if not referenced:
+        errors.append("No canonical artefact references found in Build Agent prompts (expected rbm-knowledge/04-working-non-authoritative/<feature>/artefacts/*.md)")
+        return
+
+    for ref in sorted(referenced):
+        abs_path = root_path / ref
+        if not abs_path.exists():
+            errors.append(f"Referenced artefact missing: {ref}")
+        else:
+            # Must live inside the feature artefacts folder
+            try:
+                abs_path.relative_to(artefacts_dir)
+            except Exception:
+                errors.append(f"Referenced artefact not under expected artefacts folder: {ref}")
+
 def read_text(p: Path) -> str:
     return p.read_text(encoding="utf-8", errors="replace")
 
@@ -95,7 +150,7 @@ def approval_block_present_and_filled(text: str) -> bool:
     # Must include all three fields with non-empty values
     return all(rx.search(text) for rx in APPROVAL_FIELDS)
 
-def validate(feature_path: Path) -> Tuple[bool, List[str]]:
+def validate(feature_path: Path, repo_root: Path) -> Tuple[bool, List[str]]:
     errors: List[str] = []
 
     # Naming/casing for md files in folder
@@ -107,6 +162,14 @@ def validate(feature_path: Path) -> Tuple[bool, List[str]]:
     for fn in REQUIRED_FILES_PRIMARY:
         if not (feature_path / fn).exists():
             errors.append(f"Missing required file: {fn}")
+
+
+
+# Artefact existence preflight (Build Agent prompt references)
+try:
+    validate_prompt_artefact_references(repo_root, feature_path.name, errors)
+except Exception as ex:
+    errors.append(f"Artefact reference validation error: {ex}")
 
     g4_found = None
     for opt in G4_OPTIONS:
@@ -172,18 +235,20 @@ def main():
     args = ap.parse_args()
 
     root = Path(args.root).resolve()
-    if args.path:
-        feature_path = Path(args.path).resolve()
-    elif args.feature:
-        feature_path = root / "04-working-non-authoritative" / args.feature
-    else:
-        ap.error("Provide either --feature or --path")
+kb_root = (root / "rbm-knowledge") if (root / "rbm-knowledge").exists() else root
+
+if args.path:
+    feature_path = Path(args.path).resolve()
+elif args.feature:
+    feature_path = kb_root / "04-working-non-authoritative" / args.feature
+else:
+    ap.error("Provide either --feature or --path")
 
     if not feature_path.exists() or not feature_path.is_dir():
         print(f"FAIL: Feature folder not found: {feature_path}")
         raise SystemExit(2)
 
-    ok, errors = validate(feature_path)
+    ok, errors = validate(feature_path, root)
 
     if ok:
         print("PASS: Pre-flight validation succeeded.")

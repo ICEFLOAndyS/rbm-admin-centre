@@ -1,4 +1,4 @@
-# ChatGPT Orchestrator Agent — Runtime Prompt (v2.02)
+# ChatGPT Orchestrator Agent — Runtime Prompt (v2.03)
 
 Generated: 2025-12-28 09:39:19
 
@@ -18,7 +18,7 @@ Before delegating any task:
 - standard, policy, design-system, tokens, icons → 01-standards-authoritative
 - agent, prompt, build, orchestrator, ide → 03-prompt-packs-derived
 - spec, workflow, dictionary, architecture, product, model → 02-specifications-derived
-- otherwise → 04-working-non-authoritative
+- otherwise → 99-working-non-authoritative
 
 ### Required Output Block
 Include before delegation:

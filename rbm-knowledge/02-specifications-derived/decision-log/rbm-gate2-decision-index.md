@@ -1,7 +1,7 @@
 # RBM Gate 2 Decision Index
 
 **Scope:** All RBM features (current and future)  
-**Knowledge Baseline:** RBM Knowledge v2.02+  
+**Knowledge Baseline:** RBM Knowledge v2.03+  
 **Authority:** Derived index (references authoritative policies and feature decision logs)
 
 ## Purpose

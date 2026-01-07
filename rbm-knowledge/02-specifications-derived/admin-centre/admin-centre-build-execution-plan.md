@@ -1,7 +1,7 @@
 # Admin Centre — Build Execution Plan (Post Gate 2)
 
 ## Authority
-- Knowledge Baseline: v2.02 (ZIP authoritative)
+- Knowledge Baseline: v2.03 (ZIP authoritative)
 - Feature Definition: rbm-knowledge/02-specifications-derived/admin-centre/admin-centre-feature-definition.md
 - Development Standards (AUTHORITATIVE): rbm-knowledge/01-standards-authoritative/development/development-standards-authoritative.md
 - Policy (ID + canonical path): RBM-POL-STATE-001 — rbm-knowledge/01-standards-authoritative/architecture/state-management-policy.md

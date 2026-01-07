@@ -1,4 +1,4 @@
-# Decision Management Standard (v2.02)
+# Decision Management Standard (v2.03)
 
 Generated: 2025-12-28 14:49:30
 

@@ -9,22 +9,18 @@ Agents MUST resolve artefacts in the following order:
 3. `rbm-knowledge/03-prompt-packs-derived/`
 4. `rbm-knowledge/04-working-non-authoritative/`
 
-### Prohibited Storage Patterns
-- ZIP bundles of feature artefacts (e.g. `*-artefacts-pack.zip`) are **PROHIBITED** as the primary storage format.
-- `rbm-knowledge/03-prompt-packs-derived/<feature>/` MUST contain **Build Agent prompts only** (individual `.md` files).
-- Non-prompt agent outputs for a feature (e.g. personas, user journeys, architecture notes, security, QA, Build Agent input maps) MUST be stored as **individual `.md` files** under:
-  - `rbm-knowledge/04-working-non-authoritative/<feature>/artefacts/`
+### Prohibited Folder
+- `rbm-knowledge/02-specifications-derived/` is **PROHIBITED** and MUST NOT be created or used.
+- If any artefact is found under a prohibited folder, it MUST be treated as non-existent and the artefact must be relocated into the correct canonical folder.
 
 ### Placement Rules
-- **Build Agent prompts** MUST be stored as **individual Markdown files** under:
-  - `rbm-knowledge/03-prompt-packs-derived/<feature>/prompt-<nn>-<slug>.md`
-- ZIP packaging of Build Agent prompts is **PROHIBITED** as the primary distribution format.
-- **Derived, gated feature artefacts** (e.g. approved feature definitions, operator instructions, execution plans) MUST be stored under:
+- **Derived, gated feature artefacts** (e.g., approved feature definitions, operator instructions, execution plans) MUST be stored under:
   - `rbm-knowledge/02-specifications-derived/<feature>/`
-- **Working drafts and agent artefacts** MUST be stored under:
+- **Prompt packs** MUST be stored under:
+  - `rbm-knowledge/03-prompt-packs-derived/<feature>/`
+- **Working drafts** MUST be stored under:
   - `rbm-knowledge/04-working-non-authoritative/<feature>/`
-
-**Version:** v2.02  
+**Version:** v2.03  
 **Status:** Authoritative  
 **Owner:** Product & Architecture Governance  
 **Applies to:** All RBM features, agents, and artefacts  
@@ -338,3 +334,33 @@ The Orchestrator MUST:
    - Agent execution order is violated
 
 No exceptions are permitted without a formally approved governance waiver.
+
+---
+
+## Automated Artefact-Existence Preflight (mandatory before Build Agent)
+
+Before any ServiceNow IDE Build Agent invocation, the Orchestrator MUST run the automated preflight validator and persist the output as evidence.
+
+### Command (repo root)
+
+**macOS/Linux (bash):**
+```bash
+python rbm-knowledge/tools/validators/preflight-validator.py --root . --feature <feature> | tee rbm-knowledge/04-working-non-authoritative/<feature>/preflight-report.generated.md
+```
+
+**Windows (PowerShell):**
+```powershell
+python rbm-knowledge/tools/validators/preflight-validator.py --root . --feature <feature> | Tee-Object -FilePath rbm-knowledge/04-working-non-authoritative/<feature>/preflight-report.generated.md
+```
+
+### What it validates (minimum)
+- No ZIP-based prompt/artefact packs under:
+  - `rbm-knowledge/03-prompt-packs-derived/<feature>/`
+- Build Agent prompt files exist as individual files:
+  - `prompt-*.md`
+- Each Build Agent prompt references feature artefacts using full canonical paths:
+  - `rbm-knowledge/04-working-non-authoritative/<feature>/artefacts/*.md`
+- Every referenced artefact exists on disk (hard fail if missing)
+
+### Stop condition
+If preflight fails, the Orchestrator MUST STOP (Gate failure) and must not approve Build Agent execution.

@@ -1,4 +1,4 @@
-# RBM Feature Template Pack (v2.02)
+# RBM Feature Template Pack (v2.03)
 
 Generated: 2025-12-28 14:56:45
 

@@ -28,18 +28,11 @@ This agent MUST operate in compliance with the following RBM design-system artef
 - Consolidated RBM artefacts
 
 ## 6. Outputs
-- **Build Agent prompts as individual files** (no ZIP packaging).
-  - Location: `rbm-knowledge/03-prompt-packs-derived/<feature>/`
-  - File format: Markdown (`.md`)
-  - Naming: `prompt-<nn>-<slug>.md` (and `prompt--1-...` for teardown when used)
-  - One prompt per artefact / implementation unit.
-
+- Build Agent prompt packs
 
 ## 7. Working Principles
 - One prompt per verifiable artefact
 - Standards-first prompting
-- **Save prompts as individual `.md` files** under the feature folder in `03-prompt-packs-derived/`.
-- **Do not package prompts as a ZIP** for primary consumption by ServiceNow IDE Build Agent.
 
 ## 11. Success Criteria
 - Build Agent output aligns to RBM design system

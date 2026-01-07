@@ -2,11 +2,11 @@
 
 ## Authority & Status
 - Feature: **Admin Centre**
-- Knowledge Baseline: **v2.02** (authoritative ZIP)
+- Knowledge Baseline: **v2.03** (authoritative ZIP)
 - Gate Status: **Gate 2 APPROVED**
 - Precedence: Subordinate to `rbm-knowledge/knowledge-bootstrap.md`, AUTHORITATIVE standards, governance & security policies, and RBM design system.
 
-This document defines the **mandatory ServiceNow IDE execution instructions** for building the Admin Centre feature using the approved **v2.02 Build Agent prompts (individual `.md` files under `rbm-knowledge/03-prompt-packs-derived/admin-centre/`)**.
+This document defines the **mandatory ServiceNow IDE execution instructions** for building the Admin Centre feature using the approved **v2.03 Build Agent prompt pack**.
 
 ---
 
@@ -34,8 +34,8 @@ Confirm the following canonical artefacts are available locally or in-repo:
 
 - `rbm-knowledge/02-specifications-derived/admin-centre/admin-centre-feature-definition.md`
 - Gate 0, Gate 1, Gate 2 decision records
-- Admin Centre agent artefacts (individual `.md` files) — `rbm-knowledge/04-working-non-authoritative/admin-centre/artefacts/`
-- Build Agent prompts (individual `.md` files) — `rbm-knowledge/03-prompt-packs-derived/admin-centre/`
+- Admin Centre agent artefacts pack
+- **Admin-Center-Build-Agent-Prompt-Pack-v2.03**
 
 If any artefact is missing → **STOP**.
 

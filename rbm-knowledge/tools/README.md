@@ -1,4 +1,4 @@
-# RBM Automation Pack (v2.02)
+# RBM Automation Pack (v2.03)
 
 This pack implements an automated, template-driven, approval-gated system for creating RBM features.
 
@@ -58,3 +58,18 @@ Build Agent must implement only what the artefacts specify.
 - This pack assumes naming/casing: lowercase kebab-case.
 - Template changes are Tier-1 controlled (VERSION-only change control).
 Generated on: 2026-01-04
+
+---
+
+## Automated artefact-existence preflight (Build Agent readiness)
+
+The preflight validator now additionally validates that Build Agent prompt files (`03-prompt-packs-derived/<feature>/prompt-*.md`)
+reference feature artefacts by full canonical path, and that every referenced artefact exists under:
+
+- `04-working-non-authoritative/<feature>/artefacts/`
+
+Recommended evidence capture:
+
+```bash
+python rbm-knowledge/tools/validators/preflight-validator.py --root . --feature <feature> | tee rbm-knowledge/04-working-non-authoritative/<feature>/preflight-report.generated.md
+```

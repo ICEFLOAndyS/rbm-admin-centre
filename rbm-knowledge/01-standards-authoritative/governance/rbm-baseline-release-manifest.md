@@ -1,6 +1,6 @@
 # RBM Baseline Release Manifest
 
-**Baseline Version:** v2.02  
+**Baseline Version:** v2.03  
 **Status:** Approved baseline  
 **Scope:** Knowledge system, governance, templates, and prompt packs  
 **Applies to:** RBM AI Design-to-Code programme  
@@ -19,7 +19,7 @@ All future work MUST conform to this baseline unless a governed exception is app
 ## 2. Authoritative Standards (Mandatory)
 
 ### Governance
-- `01-standards-authoritative/governance/orchestrator-governance.md` (v2.02)
+- `01-standards-authoritative/governance/orchestrator-governance.md` (v2.03)
 - `01-standards-authoritative/governance/agent-responsibility-model.md`
 - `01-standards-authoritative/governance/definition-of-done-framework.md`
 - `01-standards-authoritative/governance/decision-management-standard.md`
@@ -128,7 +128,7 @@ Location:
 ```
 
 Baseline version:
-- Feature Template Pack v2.02
+- Feature Template Pack v2.03
 
 Included artefacts:
 - `feature-brief.md`
@@ -232,4 +232,4 @@ Changes to this baseline require:
 
 ## Status
 
-This manifest establishes the **RBM Baseline Release v2.02** and is effective immediately.
+This manifest establishes the **RBM Baseline Release v2.03** and is effective immediately.

@@ -22,7 +22,7 @@ Map based on path hints:
 - Contains `standard|policy|design-system|tokens|icons` → `01-standards-authoritative`
 - Contains `agent|prompt|build|orchestrator|ide` → `03-prompt-packs-derived`
 - Contains `spec|workflow|dictionary|architecture|product|model` → `02-specifications-derived`
-- Else → `04-working-non-authoritative`
+- Else → `99-working-non-authoritative`
 
 ## 4. Operating rules
 ### 4.1 Before delegating to any sub-agent

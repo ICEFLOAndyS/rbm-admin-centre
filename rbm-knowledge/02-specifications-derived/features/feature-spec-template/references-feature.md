@@ -108,4 +108,4 @@ The Orchestrator MUST validate:
 
 | date | version | change | author |
 |---|---|---|---|
-| 2025-12-29 | v2.02 | Initial template | <name> |
+| 2025-12-29 | v2.03 | Initial template | <name> |

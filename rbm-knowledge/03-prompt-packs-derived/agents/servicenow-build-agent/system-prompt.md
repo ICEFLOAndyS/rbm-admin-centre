@@ -1,4 +1,4 @@
-# Build Agent — System Prompt (v2.02)
+# Build Agent — System Prompt (v2.03)
 
 Generated: 2025-12-28 09:51:34
 

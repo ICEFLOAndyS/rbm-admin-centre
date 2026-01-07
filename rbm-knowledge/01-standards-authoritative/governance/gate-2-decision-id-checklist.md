@@ -1,7 +1,7 @@
 # Gate 2 Decision ID & State Management Checklist (Orchestrator Pre-Flight)
 
 **Scope:** Applies to ALL RBM features at Gate 2+  
-**Baseline:** RBM Knowledge v2.02+
+**Baseline:** RBM Knowledge v2.03+
 
 ## Objective
 Block progression beyond Gate 2 unless:

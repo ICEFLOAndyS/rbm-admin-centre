@@ -1,7 +1,7 @@
 # RBM UI Contract Standard
 
 **File:** ui-contract-standard.md  
-**Knowledge Set:** rbm-knowledge v2.02  
+**Knowledge Set:** rbm-knowledge v2.03  
 **Authority Level:** Tier-1 (Normative)  
 **Applies To:** All RBM UI delivery (React / TypeScript)  
 **Status:** AUTHORITATIVE  
