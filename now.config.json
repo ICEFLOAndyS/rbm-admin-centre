@@ -1,0 +1,6 @@
+{
+  "scope": "x_icefl_rbm_admin",
+  "scopeId": "8fdcf8698712be102e91a60d3fbb3525",
+  "name": "Admin Centre",
+  "tsconfigPath": "./src/server/tsconfig.json"
+}
