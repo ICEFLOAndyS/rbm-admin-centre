@@ -16,10 +16,11 @@
 
 ### Build & Delivery
 - Admin-Center-Build-Execution-Plan.md
-- Admin-Center-Build-Agent-Prompt-Pack-v2.02.zip
+- Build Agent prompts (individual `.md` files) — `rbm-knowledge/03-prompt-packs-derived/admin-centre/`
 
-### Agent Artefacts
-- admin-center-agent-artefacts-pack.zip
+### Agent Artefacts (inputs to prompt engineering and build validation)
+- Stored as individual `.md` files in:
+  - `rbm-knowledge/04-working-non-authoritative/admin-centre/artefacts/`
 
 ### Governance
 - Gate0-Decision-Record-Admin-Center.md
@@ -33,7 +34,8 @@
 ## Usage Order
 1. Review Feature Definition
 2. Follow ServiceNow IDE Instructions
-3. Execute Build Agent prompts (v2.02)
-4. Complete Post-Build Validation Checklist
+3. Review agent artefacts under `rbm-knowledge/04-working-non-authoritative/admin-centre/artefacts/`
+4. Execute Build Agent prompts under `rbm-knowledge/03-prompt-packs-derived/admin-centre/`
+5. Complete Post-Build Validation Checklist
 
 No artefact in this folder may override authoritative standards.

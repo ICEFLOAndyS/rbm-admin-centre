@@ -14,7 +14,7 @@ Before creating, renaming, or referencing any artefact:
   - 01-standards-authoritative
   - 02-specifications-derived
   - 03-prompt-packs-derived
-  - 99-working-non-authoritative
+  - 04-working-non-authoritative
 
 If validation fails:
 - STOP

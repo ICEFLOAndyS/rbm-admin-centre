@@ -18,8 +18,8 @@ Enforce deterministic agent participation per gate and require artefact proof pr
 1. Persona & User Journeys Agent
 
 ### Artefact proof (required)
-- Personas artefact (feature-scoped, canonical path recorded)
-- User journeys artefact (feature-scoped, canonical path recorded)
+- Personas artefact (stored as an individual `.md` file under `rbm-knowledge/04-working-non-authoritative/<feature>/artefacts/`, canonical path recorded)
+- User journeys artefact (stored as an individual `.md` file under `rbm-knowledge/04-working-non-authoritative/<feature>/artefacts/`, canonical path recorded)
 
 ### Checklist
 - [ ] Feature intent exists under `rbm-knowledge/04-working-non-authoritative/<feature>/`
@@ -36,8 +36,8 @@ Enforce deterministic agent participation per gate and require artefact proof pr
 2. Security Agent
 
 ### Artefact proof (required)
-- Architecture: tables + ACL intent + enforcement points
-- Security: required controls + abuse cases + negative tests
+- Architecture: tables + ACL intent + enforcement points (stored under `rbm-knowledge/04-working-non-authoritative/<feature>/artefacts/`)
+- Security: required controls + abuse cases + negative tests (stored under `rbm-knowledge/04-working-non-authoritative/<feature>/artefacts/`)
 
 ### Checklist
 - [ ] Architect artefact exists and is referenced by canonical path
@@ -56,10 +56,10 @@ Enforce deterministic agent participation per gate and require artefact proof pr
 4. Prompt Engineer Agent
 
 ### Artefact proof (required)
-- Platform design artefact (APIs, validation, audit, rollback)
-- UI architecture artefact (React+TS, RBM components first)
-- QA test plan + evidence checklist
-- Build Agent prompt pack (includes Prompt 00 bootstrap + scope declaration)
+- Platform design artefact (APIs, validation, audit, rollback) — `rbm-knowledge/04-working-non-authoritative/<feature>/artefacts/`
+- UI architecture artefact (React+TS, RBM components first) — `rbm-knowledge/04-working-non-authoritative/<feature>/artefacts/`
+- QA test plan + evidence checklist — `rbm-knowledge/04-working-non-authoritative/<feature>/artefacts/`
+- Build Agent prompts as **individual `.md` files** in the feature folder under `rbm-knowledge/03-prompt-packs-derived/<feature>/` (includes Prompt 00 bootstrap + scope declaration).
 
 ### Checklist
 - [ ] Platform design artefact exists and is referenced by canonical path

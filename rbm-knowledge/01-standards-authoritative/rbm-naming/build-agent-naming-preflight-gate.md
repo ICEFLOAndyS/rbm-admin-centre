@@ -15,7 +15,7 @@ Fail the build immediately if ANY of the following is true:
    - `01-standards-authoritative`
    - `02-specifications-derived`
    - `03-prompt-packs-derived`
-   - `99-working-non-authoritative`
+   - `04-working-non-authoritative`
 
 ## 3. Pseudo-code (implementation reference)
 ```pseudo
@@ -23,7 +23,7 @@ ALLOWED_TOP = {
   "01-standards-authoritative",
   "02-specifications-derived",
   "03-prompt-packs-derived",
-  "99-working-non-authoritative"
+  "04-working-non-authoritative"
 }
 REGEX_KEBAB = r"^[a-z0-9]+(?:-[a-z0-9]+)*$"
 

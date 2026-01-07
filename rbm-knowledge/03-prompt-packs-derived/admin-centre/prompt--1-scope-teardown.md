@@ -1,10 +1,5 @@
 # PROMPT -1 — Prototype Scope Teardown (Optional)
 
-## Scope Declaration (MANDATORY)
-- APP_SCOPE = {{APP_SCOPE}}
-- APP_PREFIX = {{APP_PREFIX}}
-
-
 ## Authority
 - Knowledge baseline ZIP is authoritative
 - This prompt is OPTIONAL and MUST be executed manually

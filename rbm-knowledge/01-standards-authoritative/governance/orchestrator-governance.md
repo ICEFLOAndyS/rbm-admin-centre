@@ -9,17 +9,21 @@ Agents MUST resolve artefacts in the following order:
 3. `rbm-knowledge/03-prompt-packs-derived/`
 4. `rbm-knowledge/04-working-non-authoritative/`
 
-### Prohibited Folder
-- `rbm-knowledge/02-specifications-derived/` is **PROHIBITED** and MUST NOT be created or used.
-- If any artefact is found under a prohibited folder, it MUST be treated as non-existent and the artefact must be relocated into the correct canonical folder.
+### Prohibited Storage Patterns
+- ZIP bundles of feature artefacts (e.g. `*-artefacts-pack.zip`) are **PROHIBITED** as the primary storage format.
+- `rbm-knowledge/03-prompt-packs-derived/<feature>/` MUST contain **Build Agent prompts only** (individual `.md` files).
+- Non-prompt agent outputs for a feature (e.g. personas, user journeys, architecture notes, security, QA, Build Agent input maps) MUST be stored as **individual `.md` files** under:
+  - `rbm-knowledge/04-working-non-authoritative/<feature>/artefacts/`
 
 ### Placement Rules
-- **Derived, gated feature artefacts** (e.g., approved feature definitions, operator instructions, execution plans) MUST be stored under:
+- **Build Agent prompts** MUST be stored as **individual Markdown files** under:
+  - `rbm-knowledge/03-prompt-packs-derived/<feature>/prompt-<nn>-<slug>.md`
+- ZIP packaging of Build Agent prompts is **PROHIBITED** as the primary distribution format.
+- **Derived, gated feature artefacts** (e.g. approved feature definitions, operator instructions, execution plans) MUST be stored under:
   - `rbm-knowledge/02-specifications-derived/<feature>/`
-- **Prompt packs** MUST be stored under:
-  - `rbm-knowledge/03-prompt-packs-derived/<feature>/`
-- **Working drafts** MUST be stored under:
+- **Working drafts and agent artefacts** MUST be stored under:
   - `rbm-knowledge/04-working-non-authoritative/<feature>/`
+
 **Version:** v2.02  
 **Status:** Authoritative  
 **Owner:** Product & Architecture Governance  

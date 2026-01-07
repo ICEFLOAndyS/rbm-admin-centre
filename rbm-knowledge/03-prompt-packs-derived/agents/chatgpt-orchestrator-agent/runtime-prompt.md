@@ -18,7 +18,7 @@ Before delegating any task:
 - standard, policy, design-system, tokens, icons → 01-standards-authoritative
 - agent, prompt, build, orchestrator, ide → 03-prompt-packs-derived
 - spec, workflow, dictionary, architecture, product, model → 02-specifications-derived
-- otherwise → 99-working-non-authoritative
+- otherwise → 04-working-non-authoritative
 
 ### Required Output Block
 Include before delegation:

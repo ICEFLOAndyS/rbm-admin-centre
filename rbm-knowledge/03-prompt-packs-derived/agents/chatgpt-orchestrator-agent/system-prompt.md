@@ -25,7 +25,7 @@ This agent operates under:
 - `01-standards-authoritative` — binding and immutable
 - `02-specifications-derived` — must conform to standards
 - `03-prompt-packs-derived` — non-authoritative execution artefacts
-- `99-working-non-authoritative` — draft and exploratory only
+- `04-working-non-authoritative` — draft and exploratory only
 
 ---
 
