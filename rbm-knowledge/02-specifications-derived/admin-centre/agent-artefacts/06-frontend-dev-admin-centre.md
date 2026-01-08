@@ -1,12 +1,12 @@
-# Front-End Developer Plan — Admin Center UI (Derived)
+# Front-End Developer Plan — Admin Centre UI (Derived)
 
 ## Inputs
-- Personas/Journeys: `01-personas-admin-center.md`, `02-user-journeys-admin-center.md`
-- Feature definition: `rbm-knowledge/DEPRECATED-specifications-derived (DO NOT USE)/admin-centre/admin-centre-feature-definition.md`
+- Personas/Journeys: `01-personas-admin-centre.md`, `02-user-journeys-admin-centre.md`
+- Feature definition: `/rbm-knowledge/02-specifications-derived/admin-centre/admin-centre-feature-definition.md`
 - Design system constraints: RBM reference components (authoritative tree)
 
 ## UI Information Architecture
-- Admin Center Shell
+- Admin Centre Shell
   - Sections: Feature Flags, System Settings, Audit
 - Each section:
   - List view (server-side paging/filter/sort)

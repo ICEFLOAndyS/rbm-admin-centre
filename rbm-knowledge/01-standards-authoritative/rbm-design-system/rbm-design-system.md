@@ -654,7 +654,7 @@ Any change:
 - must be reflected in Build Agent rules
 
 ## Admin Domain UI Pattern
-**Authority:** RBM-ARCH-ADMIN-001 — rbm-knowledge/01-standards-authoritative/architecture/admin-domain-architecture-principle.md (Authoritative)
+**Authority:** RBM-ARCH-ADMIN-001 — /rbm-knowledge/01-standards-authoritative/architecture/admin-domain-architecture-principle.md (Authoritative)
 
 ### Pattern Summary
 - Admin menu entry-point: **Admin**

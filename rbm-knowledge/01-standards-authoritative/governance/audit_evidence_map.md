@@ -28,7 +28,7 @@ and authoritative knowledge baseline**, preventing knowledge drift and
 unauthorised standards override.
 
 ### Authoritative Control
-- `rbm-knowledge/knowledge-bootstrap.md`
+- `/rbm-knowledge/knowledge-bootstrap.md`
 - Governance Index: `docs/governance/governance-index.md`
 
 ### Required Evidence

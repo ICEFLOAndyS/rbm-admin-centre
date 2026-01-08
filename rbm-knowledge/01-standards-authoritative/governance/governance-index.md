@@ -27,7 +27,7 @@ All ChatGPT / AI-assisted usage of this knowledge system is governed by a
 
 **Authoritative file:**
 ```
-rbm-knowledge/knowledge-bootstrap.md
+/rbm-knowledge/knowledge-bootstrap.md
 ```
 
 This file establishes the authority boundary for every chat session.
@@ -70,7 +70,7 @@ Lower-order documents may not override higher-order rules.
 Each knowledge package **must** include a VERSION file:
 
 ```
-rbm-knowledge/version
+/rbm-knowledge/version
 ```
 
 The VERSION value defines:

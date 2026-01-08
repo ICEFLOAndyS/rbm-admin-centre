@@ -157,13 +157,13 @@
   },
   {
     "old_path": "architecture/README.md",
-    "new_path": "02-specifications-derived/architecture/readme.md",
+    "new_path": "02-specifications-derived/architecture/README.md",
     "bytes": 79,
     "sha256": "83b3eeb82cc32a99283d6f1a0681ab1137affe79ff03e3447ab96b95fe76babf"
   },
   {
     "old_path": "design/README.md",
-    "new_path": "02-specifications-derived/design/readme.md",
+    "new_path": "02-specifications-derived/design/README.md",
     "bytes": 62,
     "sha256": "feeeafc4547735ce5fda7d595b3c70c3e503ce68a3ec6e2f8687a88cc0c936aa"
   },
@@ -175,7 +175,7 @@
   },
   {
     "old_path": "development/README.md",
-    "new_path": "02-specifications-derived/development/readme.md",
+    "new_path": "02-specifications-derived/development/README.md",
     "bytes": 69,
     "sha256": "0f356ea3c5941b6c1501f7bfead0466fbd791d4a77ba4215e3e66345c816dbb3"
   },
@@ -193,7 +193,7 @@
   },
   {
     "old_path": "development/rbm-linting-pack/README.md",
-    "new_path": "02-specifications-derived/development/rbm-linting-pack/readme.md",
+    "new_path": "02-specifications-derived/development/rbm-linting-pack/README.md",
     "bytes": 894,
     "sha256": "83ecd3f2391e97f96f8b455fb62c7a96f51aeca10f3c42f54dd73c54356d3adb"
   },
@@ -205,7 +205,7 @@
   },
   {
     "old_path": "governance/README.md",
-    "new_path": "02-specifications-derived/governance/readme.md",
+    "new_path": "02-specifications-derived/governance/README.md",
     "bytes": 85,
     "sha256": "bec2d6162aaf4c9b0d511b2122280398e08eebff5771df60cab56706a991faf1"
   },
@@ -235,7 +235,7 @@
   },
   {
     "old_path": "icons/README.md",
-    "new_path": "01-standards-authoritative/icons/readme.md",
+    "new_path": "01-standards-authoritative/icons/README.md",
     "bytes": 46,
     "sha256": "a3c91bafe00806539d6eb175a1f9f8bb37ad2c85dffe0ea4a8a5429b1207e3b6"
   },
@@ -247,7 +247,7 @@
   },
   {
     "old_path": "personas/README.md",
-    "new_path": "02-specifications-derived/personas/readme.md",
+    "new_path": "02-specifications-derived/personas/README.md",
     "bytes": 220,
     "sha256": "bb3163c1285e14c7eb48e36a0e3783856bebe448265bfbc576ee196a72ebde2a"
   },
@@ -289,7 +289,7 @@
   },
   {
     "old_path": "personas/Change-Leadership/README.md",
-    "new_path": "02-specifications-derived/personas/change-leadership/readme.md",
+    "new_path": "02-specifications-derived/personas/change-leadership/README.md",
     "bytes": 514,
     "sha256": "f5d68f288087f3d99f595cf85515673102e863aa080b352f4708dec9d4eec7e9"
   },
@@ -331,7 +331,7 @@
   },
   {
     "old_path": "personas/Cyber-Recovery-Leaders/README.md",
-    "new_path": "02-specifications-derived/personas/cyber-recovery-leaders/readme.md",
+    "new_path": "02-specifications-derived/personas/cyber-recovery-leaders/README.md",
     "bytes": 551,
     "sha256": "b646e16ed18d268b03b096a65deaa5ba93bedd1d955f3e1f5c06ee7888ad9834"
   },
@@ -361,7 +361,7 @@
   },
   {
     "old_path": "personas/DR-BC-Leaders/README.md",
-    "new_path": "02-specifications-derived/personas/dr-bc-leaders/readme.md",
+    "new_path": "02-specifications-derived/personas/dr-bc-leaders/README.md",
     "bytes": 568,
     "sha256": "9f367ea5a72392f9bd84432f6a1471eff1debbfc66f6b645049a9bf85c841570"
   },
@@ -391,7 +391,7 @@
   },
   {
     "old_path": "personas/Governance-Assurance/README.md",
-    "new_path": "02-specifications-derived/personas/governance-assurance/readme.md",
+    "new_path": "02-specifications-derived/personas/governance-assurance/README.md",
     "bytes": 221,
     "sha256": "7e436def6589aee9a239cd7d5c0375c4b67798045c666b73968909a1394fbbfb"
   },
@@ -421,7 +421,7 @@
   },
   {
     "old_path": "personas/Operational-Authoring/README.md",
-    "new_path": "02-specifications-derived/personas/operational-authoring/readme.md",
+    "new_path": "02-specifications-derived/personas/operational-authoring/README.md",
     "bytes": 490,
     "sha256": "970b4b0a28b71a12035e1a592c6e32127eda0853c84960ac7010b868f41db93f"
   },
@@ -469,7 +469,7 @@
   },
   {
     "old_path": "personas/Procurement-Stakeholders/README.md",
-    "new_path": "02-specifications-derived/personas/procurement-stakeholders/readme.md",
+    "new_path": "02-specifications-derived/personas/procurement-stakeholders/README.md",
     "bytes": 468,
     "sha256": "14d1d73fc9a07be8608aaaf5fdd40f9771692e1717e7ab09a90cd1dbe9272024"
   },
@@ -499,7 +499,7 @@
   },
   {
     "old_path": "personas/Service-Recovery-Leaders/README.md",
-    "new_path": "02-specifications-derived/personas/service-recovery-leaders/readme.md",
+    "new_path": "02-specifications-derived/personas/service-recovery-leaders/README.md",
     "bytes": 475,
     "sha256": "52b5f552e621c7bf468358e8b41cc03dda139abd8612c917a0701e975f7463d2"
   },
@@ -535,7 +535,7 @@
   },
   {
     "old_path": "personas/ServiceNow-Platform/README.md",
-    "new_path": "02-specifications-derived/personas/service-now-platform/readme.md",
+    "new_path": "02-specifications-derived/personas/service-now-platform/README.md",
     "bytes": 346,
     "sha256": "7dd46f87904820336559c2c8be001e14e174a49c676e9e5254df385c929f7fd8"
   },
@@ -553,7 +553,7 @@
   },
   {
     "old_path": "portfolio-index/README.md",
-    "new_path": "02-specifications-derived/portfolio-index/readme.md",
+    "new_path": "02-specifications-derived/portfolio-index/README.md",
     "bytes": 88,
     "sha256": "0923ee66a61bfe1819518086540c530549de1042c679f93b2412a1771e6c4e5b"
   },
@@ -565,7 +565,7 @@
   },
   {
     "old_path": "product/README.md",
-    "new_path": "02-specifications-derived/product/readme.md",
+    "new_path": "02-specifications-derived/product/README.md",
     "bytes": 69,
     "sha256": "2f39e324cdd43f9b8cc483bbf329bfce7fadb4bc9d8e82adbe6e435b09b4cd26"
   },
@@ -613,7 +613,7 @@
   },
   {
     "old_path": "rbm-design-system/reference/README.md",
-    "new_path": "01-standards-authoritative/rbm-design-system/reference/readme.md",
+    "new_path": "01-standards-authoritative/rbm-design-system/reference/README.md",
     "bytes": 745,
     "sha256": "d6db54c77e293c6519b7f8e48567855c9c2dab7f135954e3b5e8009a02fb0e73"
   },
@@ -625,7 +625,7 @@
   },
   {
     "old_path": "rbm-design-system/reference/containers/Card/README.md",
-    "new_path": "01-standards-authoritative/rbm-design-system/reference/containers/card/readme.md",
+    "new_path": "01-standards-authoritative/rbm-design-system/reference/containers/card/README.md",
     "bytes": 686,
     "sha256": "cdc9cb5685acdead365e2218c8fb460c5b2e66c5093264b684fa707ee5b74585"
   },
@@ -673,7 +673,7 @@
   },
   {
     "old_path": "rbm-design-system/reference/containers/Modal/README.md",
-    "new_path": "01-standards-authoritative/rbm-design-system/reference/containers/modal/readme.md",
+    "new_path": "01-standards-authoritative/rbm-design-system/reference/containers/modal/README.md",
     "bytes": 688,
     "sha256": "50dd6d89de6b1362aa44a17525155c90820e6035391ba205c601752ca177fb60"
   },
@@ -733,7 +733,7 @@
   },
   {
     "old_path": "rbm-design-system/reference/containers/SidePanel/README.md",
-    "new_path": "01-standards-authoritative/rbm-design-system/reference/containers/side-panel/readme.md",
+    "new_path": "01-standards-authoritative/rbm-design-system/reference/containers/side-panel/README.md",
     "bytes": 696,
     "sha256": "baa1b60c19791666a0d52e8ef0f60c1155ba395b2abc96b2de519d5448ee5179"
   },
@@ -793,7 +793,7 @@
   },
   {
     "old_path": "rbm-design-system/reference/containers/Tabs/README.md",
-    "new_path": "01-standards-authoritative/rbm-design-system/reference/containers/tabs/readme.md",
+    "new_path": "01-standards-authoritative/rbm-design-system/reference/containers/tabs/README.md",
     "bytes": 686,
     "sha256": "fdafb526f31081729a00aa369bab441b90b227204550deb16032fc88b83d01ba"
   },
@@ -847,7 +847,7 @@
   },
   {
     "old_path": "rbm-design-system/reference/data/BulkActionBar/README.md",
-    "new_path": "01-standards-authoritative/rbm-design-system/reference/data/bulk-action-bar/readme.md",
+    "new_path": "01-standards-authoritative/rbm-design-system/reference/data/bulk-action-bar/README.md",
     "bytes": 704,
     "sha256": "fff896bb96b96f0af0c42ca1d636846031c45d6e2626503088a8ccd2730b6042"
   },
@@ -907,7 +907,7 @@
   },
   {
     "old_path": "rbm-design-system/reference/data/DataGrid/README.md",
-    "new_path": "01-standards-authoritative/rbm-design-system/reference/data/data-grid/readme.md",
+    "new_path": "01-standards-authoritative/rbm-design-system/reference/data/data-grid/README.md",
     "bytes": 694,
     "sha256": "8fd006a765b2c844113ec158790ecf35fa3e3efe96ede73cc4d92e219c90ae3e"
   },
@@ -955,7 +955,7 @@
   },
   {
     "old_path": "rbm-design-system/reference/data/DependencyChipList/README.md",
-    "new_path": "01-standards-authoritative/rbm-design-system/reference/data/dependency-chip-list/readme.md",
+    "new_path": "01-standards-authoritative/rbm-design-system/reference/data/dependency-chip-list/README.md",
     "bytes": 714,
     "sha256": "f1bb6401276fc7aedc72fd4a925ef6888929e6fff32c3a2c125a3a1c313da7a3"
   },
@@ -1039,7 +1039,7 @@
   },
   {
     "old_path": "rbm-design-system/reference/data/FilterBar/README.md",
-    "new_path": "01-standards-authoritative/rbm-design-system/reference/data/filter-bar/readme.md",
+    "new_path": "01-standards-authoritative/rbm-design-system/reference/data/filter-bar/README.md",
     "bytes": 696,
     "sha256": "ee02bc7ea85c3b148672fe8c14097cd56be55d605ef6d66d5d032b0f47a9f084"
   },
@@ -1105,7 +1105,7 @@
   },
   {
     "old_path": "rbm-design-system/reference/data/Pagination/README.md",
-    "new_path": "01-standards-authoritative/rbm-design-system/reference/data/pagination/readme.md",
+    "new_path": "01-standards-authoritative/rbm-design-system/reference/data/pagination/README.md",
     "bytes": 698,
     "sha256": "0e91bf99e967ff213e66c0488c96e0e8b711612f681720c5373ee5bac648e8d3"
   },
@@ -1165,7 +1165,7 @@
   },
   {
     "old_path": "rbm-design-system/reference/data/RowActionsMenu/README.md",
-    "new_path": "01-standards-authoritative/rbm-design-system/reference/data/row-actions-menu/readme.md",
+    "new_path": "01-standards-authoritative/rbm-design-system/reference/data/row-actions-menu/README.md",
     "bytes": 706,
     "sha256": "d885c939c0d34cf799bc5c3b1b177eefcc353df9cbad4e0e72739053a69b66a0"
   },
@@ -1219,7 +1219,7 @@
   },
   {
     "old_path": "rbm-design-system/reference/data/SelectableDataGrid/README.md",
-    "new_path": "01-standards-authoritative/rbm-design-system/reference/data/selectable-data-grid/readme.md",
+    "new_path": "01-standards-authoritative/rbm-design-system/reference/data/selectable-data-grid/README.md",
     "bytes": 714,
     "sha256": "30b5dcb1dba2d8062e338325f4c68e28f713de7ec6e6b617394ad48f9539f56d"
   },
@@ -1279,7 +1279,7 @@
   },
   {
     "old_path": "rbm-design-system/reference/feedback/ConfirmDialog/README.md",
-    "new_path": "01-standards-authoritative/rbm-design-system/reference/feedback/confirm-dialog/readme.md",
+    "new_path": "01-standards-authoritative/rbm-design-system/reference/feedback/confirm-dialog/README.md",
     "bytes": 704,
     "sha256": "aa4f6bce345d2b22b182c168669ce924ca397f17deea69126bc18a34dcc25318"
   },
@@ -1351,7 +1351,7 @@
   },
   {
     "old_path": "rbm-design-system/reference/feedback/GridSkeleton/README.md",
-    "new_path": "01-standards-authoritative/rbm-design-system/reference/feedback/grid-skeleton/readme.md",
+    "new_path": "01-standards-authoritative/rbm-design-system/reference/feedback/grid-skeleton/README.md",
     "bytes": 702,
     "sha256": "fb0ab7bcfe01c57c9709f3d5317cc8516c2014e2255af420b4f50b22f2d68ead"
   },
@@ -1411,7 +1411,7 @@
   },
   {
     "old_path": "rbm-design-system/reference/feedback/PanelSkeleton/README.md",
-    "new_path": "01-standards-authoritative/rbm-design-system/reference/feedback/panel-skeleton/readme.md",
+    "new_path": "01-standards-authoritative/rbm-design-system/reference/feedback/panel-skeleton/README.md",
     "bytes": 704,
     "sha256": "2deb2bf3ac0c339c3bc6aef7625674d8b2f67b4f90fbe6be4f7bce450e6c41b4"
   },
@@ -1471,7 +1471,7 @@
   },
   {
     "old_path": "rbm-design-system/reference/feedback/ResultState/README.md",
-    "new_path": "01-standards-authoritative/rbm-design-system/reference/feedback/result-state/readme.md",
+    "new_path": "01-standards-authoritative/rbm-design-system/reference/feedback/result-state/README.md",
     "bytes": 700,
     "sha256": "653f46ba92ac398ab3e3c509b3fb7686f5fb2c1ddbcb7b7170b3ca3f572a0390"
   },
@@ -1519,7 +1519,7 @@
   },
   {
     "old_path": "rbm-design-system/reference/feedback/ToastProvider/README.md",
-    "new_path": "01-standards-authoritative/rbm-design-system/reference/feedback/toast-provider/readme.md",
+    "new_path": "01-standards-authoritative/rbm-design-system/reference/feedback/toast-provider/README.md",
     "bytes": 704,
     "sha256": "076b952e7d9c56dfa3b672b04cc4936f7ecdcb02212f8a33786cc1da58306397"
   },
@@ -1567,7 +1567,7 @@
   },
   {
     "old_path": "rbm-design-system/reference/operational/AuditTrail/README.md",
-    "new_path": "01-standards-authoritative/rbm-design-system/reference/operational/audit-trail/readme.md",
+    "new_path": "01-standards-authoritative/rbm-design-system/reference/operational/audit-trail/README.md",
     "bytes": 698,
     "sha256": "8246d082823d0b850dbb50c75f0fc01dd726f573f4ef3396e3e96bf5eba50dfd"
   },
@@ -1615,7 +1615,7 @@
   },
   {
     "old_path": "rbm-design-system/reference/operational/ExecutionControlBar/README.md",
-    "new_path": "01-standards-authoritative/rbm-design-system/reference/operational/execution-control-bar/readme.md",
+    "new_path": "01-standards-authoritative/rbm-design-system/reference/operational/execution-control-bar/README.md",
     "bytes": 716,
     "sha256": "2ffb15b58288fc00a117a43f3a48bdf730371ab83f82e8120bf8e05b2e129562"
   },
@@ -1687,7 +1687,7 @@
   },
   {
     "old_path": "rbm-design-system/reference/operational/StatusPill/README.md",
-    "new_path": "01-standards-authoritative/rbm-design-system/reference/operational/status-pill/readme.md",
+    "new_path": "01-standards-authoritative/rbm-design-system/reference/operational/status-pill/README.md",
     "bytes": 698,
     "sha256": "ae4ec7ec8bff0d3153953213b6770fcb52c0a7370c439fc83fca2f8d358508ec"
   },
@@ -1735,7 +1735,7 @@
   },
   {
     "old_path": "rbm-design-system/reference/operational/Steps/README.md",
-    "new_path": "01-standards-authoritative/rbm-design-system/reference/operational/steps/readme.md",
+    "new_path": "01-standards-authoritative/rbm-design-system/reference/operational/steps/README.md",
     "bytes": 688,
     "sha256": "75281ecb696a91a1b4dbe40b89e1a3f979c06da13e193b5a8b88ba07e7c8f21d"
   },
@@ -1795,7 +1795,7 @@
   },
   {
     "old_path": "rbm-design-system/reference/patterns/InlineEditRow/README.md",
-    "new_path": "01-standards-authoritative/rbm-design-system/reference/patterns/inline-edit-row/readme.md",
+    "new_path": "01-standards-authoritative/rbm-design-system/reference/patterns/inline-edit-row/README.md",
     "bytes": 704,
     "sha256": "8daac2f31ed8dc338d07ee19caa377b02d59fd45991f4dcf2cabb7d0ef659961"
   },
@@ -1873,7 +1873,7 @@
   },
   {
     "old_path": "rbm-design-system/reference/patterns/toastPatterns/README.md",
-    "new_path": "01-standards-authoritative/rbm-design-system/reference/patterns/toast-patterns/readme.md",
+    "new_path": "01-standards-authoritative/rbm-design-system/reference/patterns/toast-patterns/README.md",
     "bytes": 704,
     "sha256": "d4f0780eca3559673b0ce87e3ff3ea4a98aba4b1d1c9df03fe4c4937b93f3e90"
   },
@@ -1909,7 +1909,7 @@
   },
   {
     "old_path": "rbm-design-system/reference/patterns/useConfirmableAction/README.md",
-    "new_path": "01-standards-authoritative/rbm-design-system/reference/patterns/use-confirmable-action/readme.md",
+    "new_path": "01-standards-authoritative/rbm-design-system/reference/patterns/use-confirmable-action/README.md",
     "bytes": 718,
     "sha256": "a163546722fab298dde78bcb697ed93d156150a73ed1cfb30c9c9e74a35202d3"
   },
@@ -1969,7 +1969,7 @@
   },
   {
     "old_path": "rbm-design-system/reference/primitives/Button/README.md",
-    "new_path": "01-standards-authoritative/rbm-design-system/reference/primitives/button/readme.md",
+    "new_path": "01-standards-authoritative/rbm-design-system/reference/primitives/button/README.md",
     "bytes": 690,
     "sha256": "d8d8d4a950788c90e0b70e5486dc3ea6ce5cdf3b4ec59ed79482c31492c3556a"
   },
@@ -2017,7 +2017,7 @@
   },
   {
     "old_path": "rbm-design-system/reference/primitives/IconButton/README.md",
-    "new_path": "01-standards-authoritative/rbm-design-system/reference/primitives/icon-button/readme.md",
+    "new_path": "01-standards-authoritative/rbm-design-system/reference/primitives/icon-button/README.md",
     "bytes": 698,
     "sha256": "a67b21bb5df15790a7433935327dac31ce28703fbf3600ea0547ee1c0688fcde"
   },
@@ -2065,7 +2065,7 @@
   },
   {
     "old_path": "rbm-design-system/reference/primitives/Skeleton/README.md",
-    "new_path": "01-standards-authoritative/rbm-design-system/reference/primitives/skeleton/readme.md",
+    "new_path": "01-standards-authoritative/rbm-design-system/reference/primitives/skeleton/README.md",
     "bytes": 694,
     "sha256": "6417164afb7265a3b8032f74b079f6d3dc08f7450dfefe1af08f4a828f942e7b"
   },
@@ -2113,7 +2113,7 @@
   },
   {
     "old_path": "rbm-design-system/reference/primitives/TextInput/README.md",
-    "new_path": "01-standards-authoritative/rbm-design-system/reference/primitives/text-input/readme.md",
+    "new_path": "01-standards-authoritative/rbm-design-system/reference/primitives/text-input/README.md",
     "bytes": 696,
     "sha256": "f92dfddf59c234a3ebeea86741ce2f2390ea9fa60b260f83a98fcbf07330a079"
   },
@@ -2167,7 +2167,7 @@
   },
   {
     "old_path": "rbm-design-system/reference/providers-utils/cx/README.md",
-    "new_path": "01-standards-authoritative/rbm-design-system/reference/providers-utils/cx/readme.md",
+    "new_path": "01-standards-authoritative/rbm-design-system/reference/providers-utils/cx/README.md",
     "bytes": 71,
     "sha256": "87290980cb2b4c317d0d5baeb102bfecee88f5e15553ce4e9d7310a0b597e909"
   },
@@ -2203,7 +2203,7 @@
   },
   {
     "old_path": "rbm-design-system/reference/providers-utils/DensityProvider/README.md",
-    "new_path": "01-standards-authoritative/rbm-design-system/reference/providers-utils/density-provider/readme.md",
+    "new_path": "01-standards-authoritative/rbm-design-system/reference/providers-utils/density-provider/README.md",
     "bytes": 708,
     "sha256": "ab0cd3f46361f3c525eeacce8cc12106f635ace15b54594563fec17ab9314704"
   },
@@ -2239,7 +2239,7 @@
   },
   {
     "old_path": "rbm-design-system/reference/providers-utils/id/README.md",
-    "new_path": "01-standards-authoritative/rbm-design-system/reference/providers-utils/id/readme.md",
+    "new_path": "01-standards-authoritative/rbm-design-system/reference/providers-utils/id/README.md",
     "bytes": 69,
     "sha256": "cfd357d0ff7363c2ad6990cd200c29f06f920a246258bd7f169c8d00018ff8fe"
   },

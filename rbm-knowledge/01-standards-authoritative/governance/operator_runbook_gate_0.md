@@ -17,7 +17,7 @@ It exists to ensure:
 - Outputs are auditable and defensible
 
 This runbook implements **Gate 0 – Knowledge Bootstrap** as defined in:
-- `rbm-knowledge/knowledge-bootstrap.md`
+- `/rbm-knowledge/knowledge-bootstrap.md`
 - `docs/governance/governance-index.md`
 
 ---
@@ -37,9 +37,9 @@ Failure to follow this runbook invalidates all outputs.
 
 Before starting:
 
-- [ ] Knowledge ZIP prepared with a single root folder (`rbm-knowledge/`)
-- [ ] `rbm-knowledge/version` file present and correct
-- [ ] `rbm-knowledge/knowledge-bootstrap.md` present
+- [ ] Knowledge ZIP prepared with a single root folder (`/rbm-knowledge/`)
+- [ ] `/rbm-knowledge/version` file present and correct
+- [ ] `/rbm-knowledge/knowledge-bootstrap.md` present
 - [ ] ZIP file finalised (no pending edits)
 
 If any item is missing → **STOP**.

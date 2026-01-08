@@ -1,9 +1,9 @@
-# Quality Engineering Plan — Admin Center (Derived)
+# Quality Engineering Plan — Admin Centre (Derived)
 
 ## Inputs
-- Feature definition: `rbm-knowledge/DEPRECATED-specifications-derived (DO NOT USE)/admin-centre/admin-centre-feature-definition.md`
-- Security review: `04-security-admin-center.md`
-- Architect spec: `03-architect-admin-center-tables-acls.md`
+- Feature definition: `/rbm-knowledge/02-specifications-derived/admin-centre/admin-centre-feature-definition.md`
+- Security review: `04-security-admin-centre.md`
+- Architect spec: `03-architect-admin-centre-tables-acls.md`
 
 ## Test Scope
 ### A. Access Control

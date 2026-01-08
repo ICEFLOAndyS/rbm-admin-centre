@@ -55,4 +55,4 @@ All icons used across RBM user interfaces MUST comply with the canonical icon st
 
 ## 7. RBM Tokens (mandatory) 
 All features, components, or UI specifications MUST comply with the canonicaltokens defined in:
-- `01-standards-authoritative/rbm-design-system/tokens...`
+- `01-standards-authoritative/rbm-design-system/tokens/`

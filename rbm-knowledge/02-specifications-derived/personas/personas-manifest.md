@@ -1,6 +1,6 @@
-# Personas v2.04 – Folder & Content Manifest
+# Personas v2.0.5 – Folder & Content Manifest
 
-**Source:** `Personas v2.04.zip`
+**Source:** `Personas v2.0.5.zip`
 
 **Detected root:** `/`
 
@@ -27,7 +27,7 @@
   - Metadata: id=persona-programme-manager, name=Programme Manager, authority_level=Medium, version=v1d0
 - `change-leadership/project-manager.md` — **Project Manager** (md, 2710 bytes)
   - Metadata: id=persona-project-manager, name=Project Manager, authority_level=Medium, version=v1d0
-- `change-leadership/readme.md` (md, 514 bytes)
+- `change-leadership/README.md` (md, 514 bytes)
   - Summary: - **Chief Information Office** — `Chief-Information-Officer.md` - **Programme Director** — `Programme-Director.md` - **Programme Manager** — `Programme-Manager.md` - **Client Services Director** — `Client-Services-Director.md` - **Senior Project Manager** — `Senior-Project-Manager.md` - **Project Ma
 - `change-leadership/senior-project-manager.md` — **Senior Project Manager** (md, 2749 bytes)
   - Metadata: id=persona-senior-project-manager, name=Senior Project Manager, authority_level=Medium, version=v1d0
@@ -42,7 +42,7 @@
   - Metadata: id=persona-cyber-recovery-testing-manager, name=Cyber Recovery Testing Manager, authority_level=Medium, version=v1d0
 - `cyber-recovery-leaders/head-of-cyber-recovery.md` — **Head of Cyber Recovery** (md, 1363 bytes)
   - Metadata: id=persona-head-of-cyber-recovery, name=Head of Cyber Recovery, authority_level=High, version=v1d0
-- `cyber-recovery-leaders/readme.md` (md, 551 bytes)
+- `cyber-recovery-leaders/README.md` (md, 551 bytes)
   - Summary: This category covers leaders responsible for cyber recovery planning, execution, architecture, and testing following severe cyber incidents.
 - `cyber-recovery-leaders/ransomware-recovery-manager.md` — **Ransomware Recovery Manager** (md, 986 bytes)
   - Metadata: id=persona-ransomware-recovery-manager, name=Ransomware Recovery Manager, authority_level=Medium, version=v1d0
@@ -57,7 +57,7 @@
   - Metadata: id=persona-disaster-recovery-lead, name=Disaster Recovery Lead, authority_level=High, version=v1d0
 - `dr-bc-leaders/head-of-business-continuity.md` — **Head of Business Continuity** (md, 1314 bytes)
   - Metadata: id=persona-head-of-business-continuity, name=Head of Business Continuity, authority_level=High, version=v1d0
-- `dr-bc-leaders/readme.md` (md, 568 bytes)
+- `dr-bc-leaders/README.md` (md, 568 bytes)
   - Summary: This category covers senior and operational leaders responsible for Business Continuity, Disaster Recovery, service recovery, crisis management, and resilience testing.
 - `dr-bc-leaders/resilience-testing-manager.md` — **Resilience Testing Manager** (md, 1048 bytes)
   - Metadata: id=persona-resilience-testing-manager, name=Resilience Testing Manager, authority_level=Medium, version=v1d0
@@ -80,7 +80,7 @@
   - Metadata: id=persona-cto, name=Chief Technology Officer (CTO), authority_level=Highest, version=v1d0
 - `governance-assurance/internal-auditor.md` — **Internal Auditor** (md, 3547 bytes)
   - Metadata: id=persona-internal-auditor, name=Internal Auditor, authority_level=Highest, version=v1d0
-- `governance-assurance/readme.md` (md, 221 bytes)
+- `governance-assurance/README.md` (md, 221 bytes)
   - Summary: - **Chief Technology Officer** — `Chief-Technology-Officer.md` - **Internal Auditor** — `Internal-Auditor.md` - **Regulatory Auditor** — `Regulatory-Auditor.md`
 - `governance-assurance/regulatory-auditor.md` — **Regulatory Auditor** (md, 3343 bytes)
   - Metadata: id=persona-regulatory-auditor, name=Regulatory Auditor, authority_level=Highest, version=v1d0
@@ -93,7 +93,7 @@
   - Metadata: id=persona-content-author, name=Content Author, authority_level=Execution, version=v1d0
 - `content-creators/event-support-analyst.md` — **Event Support Analyst** (md, 2721 bytes)
   - Metadata: id=persona-event-support-analyst, name=Event Support Analyst, authority_level=Execution, version=v1d0
-- `content-creators/readme.md` (md, 490 bytes)
+- `content-creators/README.md` (md, 490 bytes)
   - Summary: - **Content Author** — `Content-Author.md` - **Template Author** — `Template-Author.md` - **Component Author** — `Component-Author.md` - **Team Leader** — `Team-Leader.md` - **Task Agent / Owner** — `Task-Agent-Owner.md` - **Event Support Analyst** — `Event-Support-Analyst.md` - **Runbook Engineer**
 - `content-creators/runbook-engineer.md` — **Runbook Engineer** (md, 3813 bytes)
   - Summary: Acts as the bridge between architecture, operations, and execution tooling.
@@ -113,7 +113,7 @@
   - Metadata: id=persona-head-of-procurement, name=Head of Procurement, authority_level=High, version=v1d0
 - `procurement-stakeholders/legal-counsel.md` — **Legal Counsel (Commercial / Technology)** (md, 1184 bytes)
   - Metadata: id=persona-legal-counsel, name=Legal Counsel (Commercial / Technology), authority_level=High, version=v1d0
-- `procurement-stakeholders/readme.md` (md, 468 bytes)
+- `procurement-stakeholders/README.md` (md, 468 bytes)
   - Summary: This category covers personas involved in procurement decisions, including enablers, qualifiers, and blockers.
 - `procurement-stakeholders/risk-management.md` — **Enterprise Risk Manager** (md, 1083 bytes)
   - Metadata: id=persona-risk-management, name=Enterprise Risk Manager, authority_level=High, version=v1d0
@@ -126,7 +126,7 @@
   - Metadata: id=persona-head-of-service-recovery, name=Head of Service Recovery, authority_level=High, version=v1d0
 - `service-recovery-leaders/major-incident-manager.md` — **Major Incident Manager** (md, 1017 bytes)
   - Metadata: id=persona-major-incident-manager, name=Major Incident Manager, authority_level=Medium, version=v1d0
-- `service-recovery-leaders/readme.md` (md, 475 bytes)
+- `service-recovery-leaders/README.md` (md, 475 bytes)
   - Summary: This category covers leaders and managers responsible for restoring business services following major incidents.
 - `service-recovery-leaders/recovery-communications-lead.md` — **Recovery Communications Lead** (md, 913 bytes)
   - Metadata: id=persona-recovery-communications-lead, name=Recovery Communications Lead, authority_level=Low, version=v1d0

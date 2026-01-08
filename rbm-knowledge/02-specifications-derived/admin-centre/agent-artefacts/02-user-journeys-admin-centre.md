@@ -1,15 +1,15 @@
-# User Journeys — Admin Center (Derived)
+# User Journeys — Admin Centre (Derived)
 
 ## Authority & Inputs
 - Knowledge Baseline: v2.0.0
-- Feature Definition: `rbm-knowledge/DEPRECATED-specifications-derived (DO NOT USE)/admin-centre/admin-centre-feature-definition.md`
-- Policy: RBM-POL-STATE-001 — rbm-knowledge/01-standards-authoritative/architecture/state-management-policy.md
-- Dev standards: `rbm-knowledge/01-standards-authoritative/development/development-standards-authoritative.md`
+- Feature Definition: `/rbm-knowledge/02-specifications-derived/admin-centre/admin-centre-feature-definition.md`
+- Policy: RBM-POL-STATE-001 — /rbm-knowledge/01-standards-authoritative/architecture/state-management-policy.md
+- Dev standards: `/rbm-knowledge/01-standards-authoritative/development/development-standards-authoritative.md`
 
 ## Journey J1 — Feature Flags (Enable/Disable a Capability)
 **Actor:** RBM Platform Admin (primary), RBM Admin (scoped), RBM Read-Only (view only)
 
-1. Navigate to **Admin Center → Feature Flags**
+1. Navigate to **Admin Centre → Feature Flags**
 2. List view loads with **server-side** paging/filter/sort
 3. Actor selects a feature flag record (detail view)
 4. Actor edits toggle + optional rationale/notes
@@ -30,7 +30,7 @@
 ## Journey J2 — System Settings (Change a Configuration Value)
 **Actor:** RBM Platform Admin (primary), RBM Admin (where permitted)
 
-1. Navigate to **Admin Center → System Settings**
+1. Navigate to **Admin Centre → System Settings**
 2. List view loads with server-side paging/filter/sort
 3. Actor opens a setting; sees current value + description + impact level
 4. Actor modifies value; client-side validation runs (non-authoritative)
@@ -53,7 +53,7 @@
 ## Journey J3 — Audit Review (Read-only)
 **Actor:** RBM Read-Only / Compliance
 
-1. Navigate to **Admin Center → Audit**
+1. Navigate to **Admin Centre → Audit**
 2. Search audit logs (server-side filtering)
 3. Open an audit event; view:
    - actor

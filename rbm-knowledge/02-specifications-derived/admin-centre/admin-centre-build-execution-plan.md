@@ -1,10 +1,10 @@
 # Admin Centre — Build Execution Plan (Post Gate 2)
 
 ## Authority
-- Knowledge Baseline: v2.04 (ZIP authoritative)
-- Feature Definition: rbm-knowledge/02-specifications-derived/admin-centre/admin-centre-feature-definition.md
-- Development Standards (AUTHORITATIVE): rbm-knowledge/01-standards-authoritative/development/development-standards-authoritative.md
-- Policy (ID + canonical path): RBM-POL-STATE-001 — rbm-knowledge/01-standards-authoritative/architecture/state-management-policy.md
+- Knowledge Baseline: v2.0.5 (ZIP authoritative)
+- Feature Definition: /rbm-knowledge/02-specifications-derived/admin-centre/admin-centre-feature-definition.md
+- Development Standards (AUTHORITATIVE): /rbm-knowledge/01-standards-authoritative/development/development-standards-authoritative.md
+- Policy (ID + canonical path): RBM-POL-STATE-001 — /rbm-knowledge/01-standards-authoritative/architecture/state-management-policy.md
 
 ## Objective
 Deliver the **Admin Centre** feature as a **React + TypeScript** administrative UI and supporting server-side enforcement for configuration-time administration only, with full auditability.

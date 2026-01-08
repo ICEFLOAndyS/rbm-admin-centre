@@ -53,11 +53,11 @@ Successful delivery of this feature will result in
 ## Target Personas
 The RBM personas that this feature is intended to support are as follows:
 
-content_creators persona category:
-1) 02-specifications-derived/personas/content_creators/content-pack-author.md
-2) 02-specifications-derived/personas/content_creators/content-author.md
-3) 02-specifications-derived/personas/content_creators/runbook-engineer.md
-4) 02-specifications-derived/personas/content_creators/team-leader.md
+content-creators persona category:
+1) 02-specifications-derived/personas/content-creators/content-pack-author.md
+2) 02-specifications-derived/personas/content-creators/content-author.md
+3) 02-specifications-derived/personas/content-creators/runbook-engineer.md
+4) 02-specifications-derived/personas/content-creators/team-leader.md
 
 Change-leadership category:
 1) 02-specifications-derived/personas/change-leadership/deployment-cutover-manager.md
@@ -65,9 +65,9 @@ Change-leadership category:
 3) 02-specifications-derived/personas/change-leadership/senior-project-manager.md
 
 dr-bc-leaders category:
-1) 02-specifications-derived/personas/service-recovery-leaders/disaster-recovery-lead.md
-2) 02-specifications-derived/personas/service-recovery-leaders/dr-recovery-manager.md
-3) 02-specifications-derived/personas/service-recovery-leaders/resilience-testing-manager.md
+1) 02-specifications-derived/personas/dr-bc-leaders/disaster-recovery-lead.md
+2) 02-specifications-derived/personas/dr-bc-leaders/dr-recovery-manager.md
+3) 02-specifications-derived/personas/dr-bc-leaders/resilience-testing-manager.md
 
 
 ---

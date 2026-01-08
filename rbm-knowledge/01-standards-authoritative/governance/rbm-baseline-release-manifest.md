@@ -1,6 +1,6 @@
 # RBM Baseline Release Manifest
 
-**Baseline Version:** v2.04  
+**Baseline Version:** v2.0.5  
 **Status:** Approved baseline  
 **Scope:** Knowledge system, governance, templates, and prompt packs  
 **Applies to:** RBM AI Design-to-Code programme  
@@ -19,7 +19,7 @@ All future work MUST conform to this baseline unless a governed exception is app
 ## 2. Authoritative Standards (Mandatory)
 
 ### Governance
-- `01-standards-authoritative/governance/orchestrator-governance.md` (v2.04)
+- `01-standards-authoritative/governance/orchestrator-governance.md` (v2.0.5)
 - `01-standards-authoritative/governance/agent-responsibility-model.md`
 - `01-standards-authoritative/governance/definition-of-done-framework.md`
 - `01-standards-authoritative/governance/decision-management-standard.md`
@@ -128,7 +128,7 @@ Location:
 ```
 
 Baseline version:
-- Feature Template Pack v2.04
+- Feature Template Pack v2.0.5
 
 Included artefacts:
 - `feature-brief.md`
@@ -155,19 +155,19 @@ Defines the mandatory structure for all RBM feature specifications with governan
 
 Canonical agent prompt pack folders:
 
-- `rbm-knowledge/03-prompt-packs-derived/agents/ai-prompt-engineer-agent/`
-- `rbm-knowledge/03-prompt-packs-derived/agents/chatgpt-orchestrator-agent/`
-- `rbm-knowledge/03-prompt-packs-derived/agents/dashboard-designer-agent/`
-- `rbm-knowledge/03-prompt-packs-derived/agents/flow-designer-agent/`
-- `rbm-knowledge/03-prompt-packs-derived/agents/front-end-developer-agent/`
-- `rbm-knowledge/03-prompt-packs-derived/agents/ms-teams-integration-agent/`
-- `rbm-knowledge/03-prompt-packs-derived/agents/persona-user-journeys-agent/`
-- `rbm-knowledge/03-prompt-packs-derived/agents/platform-developer-agent/`
-- `rbm-knowledge/03-prompt-packs-derived/agents/quality-engineer-agent/`
-- `rbm-knowledge/03-prompt-packs-derived/agents/security-expert-agent/`
-- `rbm-knowledge/03-prompt-packs-derived/agents/servicenow-architect-agent/`
-- `rbm-knowledge/03-prompt-packs-derived/agents/servicenow-build-agent/`
-- `rbm-knowledge/03-prompt-packs-derived/agents/ux-ui-designer-agent/`
+- `/rbm-knowledge/03-prompt-packs-derived/agents/ai-prompt-engineer-agent/`
+- `/rbm-knowledge/03-prompt-packs-derived/agents/chatgpt-orchestrator-agent/`
+- `/rbm-knowledge/03-prompt-packs-derived/agents/dashboard-designer-agent/`
+- `/rbm-knowledge/03-prompt-packs-derived/agents/flow-designer-agent/`
+- `/rbm-knowledge/03-prompt-packs-derived/agents/front-end-developer-agent/`
+- `/rbm-knowledge/03-prompt-packs-derived/agents/ms-teams-integration-agent/`
+- `/rbm-knowledge/03-prompt-packs-derived/agents/persona-user-journeys-agent/`
+- `/rbm-knowledge/03-prompt-packs-derived/agents/platform-developer-agent/`
+- `/rbm-knowledge/03-prompt-packs-derived/agents/quality-engineer-agent/`
+- `/rbm-knowledge/03-prompt-packs-derived/agents/security-expert-agent/`
+- `/rbm-knowledge/03-prompt-packs-derived/agents/servicenow-architect-agent/`
+- `/rbm-knowledge/03-prompt-packs-derived/agents/servicenow-build-agent/`
+- `/rbm-knowledge/03-prompt-packs-derived/agents/ux-ui-designer-agent/`
 
 ### Orchestrator
 Location:
@@ -232,4 +232,4 @@ Changes to this baseline require:
 
 ## Status
 
-This manifest establishes the **RBM Baseline Release v2.04** and is effective immediately.
+This manifest establishes the **RBM Baseline Release v2.0.5** and is effective immediately.

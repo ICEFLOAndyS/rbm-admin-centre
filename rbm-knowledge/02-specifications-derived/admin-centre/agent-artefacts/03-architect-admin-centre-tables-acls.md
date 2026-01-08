@@ -1,10 +1,10 @@
-# ServiceNow Architect Output — Admin Center (Derived)
+# ServiceNow Architect Output — Admin Centre (Derived)
 
 ## Authority & Inputs
 - Knowledge Baseline: v2.0.0
-- Feature Definition: `rbm-knowledge/DEPRECATED-specifications-derived (DO NOT USE)/admin-centre/admin-centre-feature-definition.md`
-- Policy: RBM-POL-STATE-001 — rbm-knowledge/01-standards-authoritative/architecture/state-management-policy.md
-- Dev standards: `rbm-knowledge/01-standards-authoritative/development/development-standards-authoritative.md`
+- Feature Definition: `/rbm-knowledge/02-specifications-derived/admin-centre/admin-centre-feature-definition.md`
+- Policy: RBM-POL-STATE-001 — /rbm-knowledge/01-standards-authoritative/architecture/state-management-policy.md
+- Dev standards: `/rbm-knowledge/01-standards-authoritative/development/development-standards-authoritative.md`
 
 ## A. Data Model — Proposed Tables (Configuration Domain)
 
@@ -55,7 +55,7 @@
 ## B. Access Control (ACL) — Role Reuse Only
 
 ### Roles (existing)
-- RBM Platform Admin — full admin center write
+- RBM Platform Admin — full admin centre write
 - RBM Admin — scoped write where permitted
 - RBM Read-Only — read access to audit and view-only modules
 

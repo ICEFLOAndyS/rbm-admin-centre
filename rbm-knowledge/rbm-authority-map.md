@@ -11,10 +11,10 @@
 
 This document defines the **authoritative precedence model** for the RBM knowledge system.
 
-> **Non-negotiable:** If any conflict exists between this file and `rbm-knowledge/knowledge-bootstrap.md`, the Bootstrap Contract wins.
+> **Non-negotiable:** If any conflict exists between this file and `/rbm-knowledge/knowledge-bootstrap.md`, the Bootstrap Contract wins.
 
 If any conflict exists between documents, prompts, agent outputs, or tooling:
-> **The Bootstrap Contract (`rbm-knowledge/knowledge-bootstrap.md`) determines which artefact prevails.**
+> **The Bootstrap Contract (`/rbm-knowledge/knowledge-bootstrap.md`) determines which artefact prevails.**
 >
 > This Authority Map is a *derived* representation and MUST NOT override the Bootstrap Contract.
 
@@ -37,7 +37,7 @@ No other document may override this file.
 
 All humans, agents, and tools MUST apply this order:
 
-1. **Tier‑0** – Bootstrap Contract (`rbm-knowledge/knowledge-bootstrap.md`)  2. **Tier‑1** – Authoritative Standards  
+1. **Tier‑0** – Bootstrap Contract (`/rbm-knowledge/knowledge-bootstrap.md`)  2. **Tier‑1** – Authoritative Standards  
 3. **Tier‑2** – Governance & Process  
 4. **Tier‑3** – Reference material  
 

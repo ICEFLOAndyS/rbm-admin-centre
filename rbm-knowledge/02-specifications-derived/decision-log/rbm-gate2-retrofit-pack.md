@@ -1,7 +1,7 @@
 # RBM Gate 2 Decision Retrofit Pack
 
 **Scope:** Retrofit existing RBM features to comply with standardized Gate-2 Decision IDs.  
-**Baseline:** RBM Knowledge v2.04+  
+**Baseline:** RBM Knowledge v2.0.5+  
 **Outcome:** Every feature has (a) a Gate-2 decision log, (b) a Gate-2 prompt enforcement block, and (c) an index entry.
 
 ## A. Retrofit Steps (Apply Per Feature)
@@ -11,8 +11,8 @@ Create (or update) a decision log at:
 `02-specifications-derived/decision-log/<feature>-decisions.md`
 
 Include at minimum:
-- `G2-DEC-<FEATURE>-STATE-001` (inherits RBM-POL-STATE-001 — rbm-knowledge/01-standards-authoritative/architecture/state-management-policy.md)
-Authoritative policy: `RBM-POL-STATE-001 — rbm-knowledge/01-standards-authoritative/architecture/state-management-policy.md`
+- `G2-DEC-<FEATURE>-STATE-001` (inherits RBM-POL-STATE-001 — /rbm-knowledge/01-standards-authoritative/architecture/state-management-policy.md)
+Authoritative policy: `RBM-POL-STATE-001 — /rbm-knowledge/01-standards-authoritative/architecture/state-management-policy.md`
 - Any existing Gate-2 decisions already implied by the feature’s data model (MODEL/REL/VERSION)
 
 ### Step 2 — Inject Gate-2 Enforcement Block into Prompt Pack
@@ -20,7 +20,7 @@ In:
 `03-prompt-packs-derived/<feature>/01-architecture-data-model.md`
 
 Add:
-- reference to RBM-POL-STATE-001 — rbm-knowledge/01-standards-authoritative/architecture/state-management-policy.md
+- reference to RBM-POL-STATE-001 — /rbm-knowledge/01-standards-authoritative/architecture/state-management-policy.md
 - explicit statement that lifecycle/state fields must use sys_choice
 - Decision ID reference for the feature (e.g., G2-DEC-RB-STATE-001)
 
@@ -37,7 +37,7 @@ Ensure the Gate-2 checklist is applied before allowing Gate 3+.
 > You can add more as the feature matures.
 
 ### Runbooks (RB)
-- G2-DEC-RB-STATE-001 — State fields use sys_choice (inherits RBM-POL-STATE-001 — rbm-knowledge/01-standards-authoritative/architecture/state-management-policy.md)
+- G2-DEC-RB-STATE-001 — State fields use sys_choice (inherits RBM-POL-STATE-001 — /rbm-knowledge/01-standards-authoritative/architecture/state-management-policy.md)
 - G2-DEC-RB-VERSION-001 — Versioning/baselining strategy for runbooks (if baselining exists)
 - G2-DEC-RB-REL-001 — Relationship model between runbook, stages, tasks (including M2M if used)
 
@@ -78,7 +78,7 @@ Use this template in each feature decision log:
 ## G2-DEC-<FEATURE>-STATE-001
 **Gate:** Gate 2 — Architecture & Data Model  
 **Status:** ACTIVE  
-**Inherits Policy:** RBM-POL-STATE-001 — rbm-knowledge/01-standards-authoritative/architecture/state-management-policy.md
+**Inherits Policy:** RBM-POL-STATE-001 — /rbm-knowledge/01-standards-authoritative/architecture/state-management-policy.md
 
 ### Decision
 All lifecycle/workflow/state/status fields SHALL use ServiceNow sys_choice choice fields scoped to RBM tables/fields.
@@ -88,7 +88,7 @@ A scoped reference table (e.g., rbm_choice) SHALL NOT be used for state machines
 List the table.field pairs for this feature.
 
 ### Enforcement
-- Gate 2 prompt must reference RBM-POL-STATE-001 — rbm-knowledge/01-standards-authoritative/architecture/state-management-policy.md
+- Gate 2 prompt must reference RBM-POL-STATE-001 — /rbm-knowledge/01-standards-authoritative/architecture/state-management-policy.md
 - Orchestrator must halt on violation
 
 ---
@@ -101,7 +101,7 @@ Insert into each feature’s `01-architecture-data-model.md`:
 ## Gate 2 Binding Policy — State Management
 
 This implementation MUST comply with:
-RBM-POL-STATE-001 — rbm-knowledge/01-standards-authoritative/architecture/state-management-policy.md (State Management Policy)
+RBM-POL-STATE-001 — /rbm-knowledge/01-standards-authoritative/architecture/state-management-policy.md (State Management Policy)
 
 All lifecycle, workflow, and status fields MUST use `sys_choice`.
 Reference tables MUST NOT be used for state machines.

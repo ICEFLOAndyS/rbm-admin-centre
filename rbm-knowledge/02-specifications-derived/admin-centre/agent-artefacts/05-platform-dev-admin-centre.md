@@ -1,9 +1,9 @@
-# Platform Developer Plan — Admin Center (Derived)
+# Platform Developer Plan — Admin Centre (Derived)
 
 ## Inputs
-- Architect artefact: `03-architect-admin-center-tables-acls.md`
-- Security artefact: `04-security-admin-center.md`
-- Feature definition: `rbm-knowledge/DEPRECATED-specifications-derived (DO NOT USE)/admin-centre/admin-centre-feature-definition.md`
+- Architect artefact: `03-architect-admin-centre-tables-acls.md`
+- Security artefact: `04-security-admin-centre.md`
+- Feature definition: `/rbm-knowledge/02-specifications-derived/admin-centre/admin-centre-feature-definition.md`
 
 ## Server-side Components (proposed)
 1. Tables + dictionary:

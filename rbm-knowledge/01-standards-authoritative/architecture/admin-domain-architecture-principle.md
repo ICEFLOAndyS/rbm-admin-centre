@@ -47,4 +47,4 @@ Minimum required outputs per feature (where applicable):
 - Gate 4: API contract includes configuration record read/write interfaces where required
 
 ## Canonical Reference
-RBM-ARCH-ADMIN-001 — rbm-knowledge/01-standards-authoritative/architecture/admin-domain-architecture-principle.md
+RBM-ARCH-ADMIN-001 — /rbm-knowledge/01-standards-authoritative/architecture/admin-domain-architecture-principle.md

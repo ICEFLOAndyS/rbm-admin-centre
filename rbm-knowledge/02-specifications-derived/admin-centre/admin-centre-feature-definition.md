@@ -19,13 +19,13 @@
 
 ### Enforcement
 - This section is subordinate to:
-  `rbm-knowledge/01-standards-authoritative/governance/agent-invocation-contract.md`
+  `/rbm-knowledge/01-standards-authoritative/governance/agent-invocation-contract.md`
 - If any excluded agent is invoked, execution MUST STOP.
 - A gate cannot pass without the required artefacts for its required agents.
 
 ## Authority & Status
 - Authority level: Derived (Gate 2)
-- Knowledge Baseline: v2.04
+- Knowledge Baseline: v2.0.5
 - Precedence: Subordinate to Bootstrap Contract, AUTHORITATIVE standards, governance & security policies, and RBM design system
 - Gate 2: In progress
 

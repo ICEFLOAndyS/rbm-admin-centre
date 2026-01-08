@@ -27,4 +27,4 @@ Generated: 2025-12-29 07:38:05
   - `test -f 02-specifications-derived/features/folder-segmentation/folder-segmentation-acl-matrix.md`
   - `test -f 02-specifications-derived/features/folder-segmentation/folder-segmentation-build-agent-prompt-pack.md`
 - Confirm IDE playbook exists:
-  - `test -f 01-standards-authoritative/governance/playbooks/servicenow-ide-prompt-execution-playbook.md`
+  - `test -f 01-standards-authoritative/playbooks/servicenow-ide-prompt-execution-playbook.md`

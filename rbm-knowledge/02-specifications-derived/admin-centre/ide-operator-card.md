@@ -1,9 +1,9 @@
 # ServiceNow IDE Operator Card — Admin Centre
 
 ## Before You Start
-- Confirm RBM Knowledge Baseline v2.04
+- Confirm RBM Knowledge Baseline v2.0.5
 - Confirm Gate 2 APPROVED
-- Confirm Admin Centre prompt pack v2.04
+- Confirm Admin Centre prompt pack v2.0.5
 
 ## Prompt Order (Do Not Deviate)
 1. Platform Foundation

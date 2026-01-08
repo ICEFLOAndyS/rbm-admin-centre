@@ -1,9 +1,9 @@
-# Security Review — Admin Center (Derived)
+# Security Review — Admin Centre (Derived)
 
 ## Authority & Inputs
 - Knowledge Baseline: v2.0.0
-- Feature Definition: `rbm-knowledge/DEPRECATED-specifications-derived (DO NOT USE)/admin-centre/admin-centre-feature-definition.md`
-- Policy: RBM-POL-STATE-001 — rbm-knowledge/01-standards-authoritative/architecture/state-management-policy.md
+- Feature Definition: `/rbm-knowledge/02-specifications-derived/admin-centre/admin-centre-feature-definition.md`
+- Policy: RBM-POL-STATE-001 — /rbm-knowledge/01-standards-authoritative/architecture/state-management-policy.md
 
 ## Threat / Abuse Cases
 1. Privilege escalation via UI-only checks

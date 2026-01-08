@@ -1,7 +1,7 @@
 # RBM UI Contract Standard
 
 **File:** ui-contract-standard.md  
-**Knowledge Set:** rbm-knowledge v2.04  
+**Knowledge Set:** rbm-knowledge v2.0.5  
 **Authority Level:** Tier-1 (Normative)  
 **Applies To:** All RBM UI delivery (React / TypeScript)  
 **Status:** AUTHORITATIVE  
@@ -100,7 +100,7 @@ Example:
 ```md
 ## Approved UI Patterns
 
-### Admin Domain (RBM-ARCH-ADMIN-001 — rbm-knowledge/01-standards-authoritative/architecture/admin-domain-architecture-principle.md)
+### Admin Domain (RBM-ARCH-ADMIN-001 — /rbm-knowledge/01-standards-authoritative/architecture/admin-domain-architecture-principle.md)
 - Admin landing page card grid (icon + title)
 - Optional second-level card grid for complex sub-domains
 - Terminal navigation opens configuration record list for the sub-domain

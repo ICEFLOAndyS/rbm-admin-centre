@@ -1,4 +1,4 @@
-# Definition of Done Framework (v2.04)
+# Definition of Done Framework (v2.0.5)
 
 Generated: 2025-12-28 14:49:30
 

@@ -1,12 +1,12 @@
-# Personas — Admin Center (Derived)
+# Personas — Admin Centre (Derived)
 
 ## Authority & Precedence
 - Knowledge Baseline: v2.0.0 (ZIP authoritative)
-- Precedence: Subordinate to `rbm-knowledge/knowledge-bootstrap.md`, AUTHORITATIVE standards, governance/security, and RBM design system.
+- Precedence: Subordinate to `/rbm-knowledge/knowledge-bootstrap.md`, AUTHORITATIVE standards, governance/security, and RBM design system.
 - Inputs:
-  - Feature intent (non-authoritative): `rbm-knowledge/04-working-non-authoritative/admin-centre/admin-centre-feature-intent.md`
-  - Feature definition (Gate 2 artefact): `rbm-knowledge/DEPRECATED-specifications-derived (DO NOT USE)/admin-centre/admin-centre-feature-definition.md`
-  - Agent invocation controls: `rbm-knowledge/01-standards-authoritative/agent-invocation-matrix.md`
+  - Feature intent (non-authoritative): `/rbm-knowledge/04-working-non-authoritative/admin-centre/admin-centre-feature-intent.md`
+  - Feature definition (Gate 2 artefact): `/rbm-knowledge/02-specifications-derived/admin-centre/admin-centre-feature-definition.md`
+  - Agent invocation controls: `/rbm-knowledge/01-standards-authoritative/agent-invocation-matrix.md`
 
 ## Personas (Role Reuse Only)
 

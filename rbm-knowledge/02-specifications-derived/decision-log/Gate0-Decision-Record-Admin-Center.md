@@ -10,15 +10,15 @@ Admin Centre
 Gate 0 — Feature Intent Validation
 
 ## Knowledge Baseline
-- Version: v2.04
-- Authority: rbm-knowledge/version
+- Version: v2.0.5
+- Authority: /rbm-knowledge/version
 - Precedence enforced per knowledge-bootstrap.md
 
 
 ## Policies Enforced
-- RBM-POL-STATE-001 — rbm-knowledge/01-standards-authoritative/architecture/state-management-policy.md
+- RBM-POL-STATE-001 — /rbm-knowledge/01-standards-authoritative/architecture/state-management-policy.md
 ## Feature Brief Reviewed
-rbm-knowledge/04-working-non-authoritative/admin-centre/admin-centre-feature-intent.md
+/rbm-knowledge/04-working-non-authoritative/admin-centre/admin-centre-feature-intent.md
 
 ## Authority Level of Brief
 Non-Authoritative (validated against higher-order standards only)
@@ -67,7 +67,7 @@ Failure to address these conditions will block Gate 1 approval.
 
 ## Decision Authority
 ChatGPT Orchestrator Agent  
-(Acting under RBM Knowledge Baseline v2.04)
+(Acting under RBM Knowledge Baseline v2.0.5)
 
 ## Decision Date
 2026-01-05

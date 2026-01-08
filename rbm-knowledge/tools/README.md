@@ -1,4 +1,4 @@
-# RBM Automation Pack (v2.04)
+# RBM Automation Pack (v2.0.5)
 
 This pack implements an automated, template-driven, approval-gated system for creating RBM features.
 
@@ -71,5 +71,5 @@ reference feature artefacts by full canonical path, and that every referenced ar
 Recommended evidence capture:
 
 ```bash
-python rbm-knowledge/tools/validators/preflight-validator.py --root . --feature <feature> | tee rbm-knowledge/04-working-non-authoritative/<feature>/preflight-report.generated.md
+python /rbm-knowledge/tools/validators/preflight-validator.py --root . --feature <feature> | tee /rbm-knowledge/04-working-non-authoritative/<feature>/preflight-report.generated.md
 ```

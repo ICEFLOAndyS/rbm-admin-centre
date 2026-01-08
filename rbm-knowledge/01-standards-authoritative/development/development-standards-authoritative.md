@@ -1,7 +1,7 @@
 # RBM Development Standards (Authoritative)
 **Status:** Approved  
 **Applies to:** All RBM development (Human & AI)  
-**Primary Authority:** RBM Design System v2.04  
+**Primary Authority:** RBM Design System v2.0.5  
 **Scope:** `{{APP_SCOPE}}`
 > **Scope parameterisation:** The application scope MUST be treated as a variable for prototyping. Use `{{APP_SCOPE}}` for scope and `{{APP_PREFIX}}` for table prefixes in all prompts and derived artefacts. Do not hard-code scope names.
 
@@ -38,7 +38,7 @@ Non-compliant code **MUST NOT** be merged or released.
 
 ## 3. Governing Authorities (Order of Precedence)
 
-1. RBM Design System (v2.04+) – *Authoritative*
+1. RBM Design System (v2.0.5+) – *Authoritative*
 2. RBM Reference Components
 3. RBM Development Standards (this document)
 4. ServiceNow platform constraints

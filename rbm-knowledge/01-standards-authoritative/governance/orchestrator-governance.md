@@ -4,23 +4,23 @@
 
 ### Canonical Resolution Order
 Agents MUST resolve artefacts in the following order:
-1. `rbm-knowledge/01-standards-authoritative/`
-2. `rbm-knowledge/02-specifications-derived/`
-3. `rbm-knowledge/03-prompt-packs-derived/`
-4. `rbm-knowledge/04-working-non-authoritative/`
+1. `/rbm-knowledge/01-standards-authoritative/`
+2. `/rbm-knowledge/02-specifications-derived/`
+3. `/rbm-knowledge/03-prompt-packs-derived/`
+4. `/rbm-knowledge/04-working-non-authoritative/`
 
 ### Prohibited Folder
-- `rbm-knowledge/02-specifications-derived/` is **PROHIBITED** and MUST NOT be created or used.
+- `/rbm-knowledge/02-specifications-derived/` is **PROHIBITED** and MUST NOT be created or used.
 - If any artefact is found under a prohibited folder, it MUST be treated as non-existent and the artefact must be relocated into the correct canonical folder.
 
 ### Placement Rules
 - **Derived, gated feature artefacts** (e.g., approved feature definitions, operator instructions, execution plans) MUST be stored under:
-  - `rbm-knowledge/02-specifications-derived/<feature>/`
+  - `/rbm-knowledge/02-specifications-derived/admin-centre/`
 - **Prompt packs** MUST be stored under:
-  - `rbm-knowledge/03-prompt-packs-derived/<feature>/`
+  - `/rbm-knowledge/03-prompt-packs-derived/admin-centre/`
 - **Working drafts** MUST be stored under:
-  - `rbm-knowledge/04-working-non-authoritative/<feature>/`
-**Version:** v2.04  
+  - `/rbm-knowledge/04-working-non-authoritative/admin-centre/`
+**Version:** v2.0.5  
 **Status:** Authoritative  
 **Owner:** Product & Architecture Governance  
 **Applies to:** All RBM features, agents, and artefacts  
@@ -71,7 +71,7 @@ No agent may bypass the Orchestrator.
 
 The authoritative precedence model for the knowledge system is defined in:
 
-`rbm-knowledge/01-standards-authoritative/governance/governance-index.md`
+`/rbm-knowledge/01-standards-authoritative/governance/governance-index.md`
 
 The Orchestrator MUST enforce that model. Any conflicting instruction MUST be
 resolved in favour of the higher-precedence artefact.
@@ -303,7 +303,7 @@ Lack of evidence constitutes non-compliance.
 
 ### 11.6 Admin Domain Integration Rule
 If a feature introduces any Admin or configuration capability, the Orchestrator MUST ensure the feature artefacts explicitly conform to:
-- RBM-ARCH-ADMIN-001 — rbm-knowledge/01-standards-authoritative/architecture/admin-domain-architecture-principle.md
+- RBM-ARCH-ADMIN-001 — /rbm-knowledge/01-standards-authoritative/architecture/admin-domain-architecture-principle.md
 
 The Orchestrator MUST NOT progress beyond Gate 0 unless the feature explicitly records:
 - Admin sub-domain placement (existing or new)
@@ -324,7 +324,7 @@ This standard is effective immediately and supersedes all prior versions.
 The Orchestrator MUST:
 
 1. Load and enforce:
-   - `rbm-knowledge/01-standards-authoritative/governance/agent-invocation-contract.md`
+   - `/rbm-knowledge/01-standards-authoritative/governance/agent-invocation-contract.md`
 2. Validate feature-level "Agent Participation" sections against the contract.
 3. Construct an ordered execution plan per gate.
 4. Require artefact proof for each agent before proceeding.
@@ -345,21 +345,21 @@ Before any ServiceNow IDE Build Agent invocation, the Orchestrator MUST run the 
 
 **macOS/Linux (bash):**
 ```bash
-python rbm-knowledge/tools/validators/preflight-validator.py --root . --feature <feature> | tee rbm-knowledge/04-working-non-authoritative/<feature>/preflight-report.generated.md
+python /rbm-knowledge/tools/validators/preflight-validator.py --root . --feature <feature> | tee /rbm-knowledge/04-working-non-authoritative/admin-centre/preflight-report.generated.md
 ```
 
 **Windows (PowerShell):**
 ```powershell
-python rbm-knowledge/tools/validators/preflight-validator.py --root . --feature <feature> | Tee-Object -FilePath rbm-knowledge/04-working-non-authoritative/<feature>/preflight-report.generated.md
+python /rbm-knowledge/tools/validators/preflight-validator.py --root . --feature <feature> | Tee-Object -FilePath /rbm-knowledge/04-working-non-authoritative/admin-centre/preflight-report.generated.md
 ```
 
 ### What it validates (minimum)
 - No ZIP-based prompt/artefact packs under:
-  - `rbm-knowledge/03-prompt-packs-derived/<feature>/`
+  - `/rbm-knowledge/03-prompt-packs-derived/admin-centre/`
 - Build Agent prompt files exist as individual files:
   - `prompt-*.md`
 - Each Build Agent prompt references feature artefacts using full canonical paths:
-  - `rbm-knowledge/02-specifications-derived/<feature>/agent-artefacts/*.md`
+  - `/rbm-knowledge/02-specifications-derived/admin-centre/agent-artefacts/*.md`
 - Every referenced artefact exists on disk (hard fail if missing)
 
 ### Stop condition

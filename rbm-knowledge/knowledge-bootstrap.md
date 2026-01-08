@@ -1,5 +1,5 @@
 # RBM Knowledge Bootstrap Contract
-Version: v2.04
+Version: v2.0.5
 Status: AUTHORITATIVE
 Last Updated: 2026-01-04
 
@@ -89,7 +89,7 @@ If confirmation is incomplete → **STOP**.
 This knowledge package **must** include a VERSION file at:
 
 ```
-rbm-knowledge/version
+/rbm-knowledge/version
 ```
 
 The VERSION file defines:
@@ -108,7 +108,7 @@ If the VERSION file is missing or unreadable:
 Unless explicitly overridden within this package, the precedence order is:
 
 1. **Bootstrap Contract**  
-   `rbm-knowledge/knowledge-bootstrap.md`
+   `/rbm-knowledge/knowledge-bootstrap.md`
 2. Standards marked **AUTHORITATIVE**
 3. Governance and security policies
 4. Design system constraints

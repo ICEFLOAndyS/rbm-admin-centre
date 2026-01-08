@@ -1,12 +1,12 @@
 # Gate 2 Decision ID & State Management Checklist (Orchestrator Pre-Flight)
 
 **Scope:** Applies to ALL RBM features at Gate 2+  
-**Baseline:** RBM Knowledge v2.04+
+**Baseline:** RBM Knowledge v2.0.5+
 
 ## Objective
 Block progression beyond Gate 2 unless:
 - Gate-2 decision IDs are present and correctly formatted
-- State fields comply with RBM-POL-STATE-001 — rbm-knowledge/01-standards-authoritative/architecture/state-management-policy.md
+- State fields comply with RBM-POL-STATE-001 — /rbm-knowledge/01-standards-authoritative/architecture/state-management-policy.md
 
 ---
 
@@ -31,11 +31,11 @@ For each feature:
 
 ---
 
-## B. State Management Policy Enforcement (RBM-POL-STATE-001 — rbm-knowledge/01-standards-authoritative/architecture/state-management-policy.md)
+## B. State Management Policy Enforcement (RBM-POL-STATE-001 — /rbm-knowledge/01-standards-authoritative/architecture/state-management-policy.md)
 
 - [ ] Lifecycle/workflow/state/status fields use `sys_choice`
 - [ ] No reference table (e.g., `rbm_choice`) is introduced for state machines
-- [ ] Gate-2 prompt contains an explicit enforcement block referencing RBM-POL-STATE-001 — rbm-knowledge/01-standards-authoritative/architecture/state-management-policy.md
+- [ ] Gate-2 prompt contains an explicit enforcement block referencing RBM-POL-STATE-001 — /rbm-knowledge/01-standards-authoritative/architecture/state-management-policy.md
 - [ ] Any detected deviation triggers an immediate stop and requires Orchestrator override approval
 
 **Fail ⇒ HALT**
@@ -45,7 +45,7 @@ For each feature:
 ## C. Minimum Required Decision Per Feature
 
 - [ ] Each feature includes `G2-DEC-<FEATURE>-STATE-001` marked ACTIVE
-- [ ] The decision references inheritance from `RBM-POL-STATE-001 — rbm-knowledge/01-standards-authoritative/architecture/state-management-policy.md`
+- [ ] The decision references inheritance from `RBM-POL-STATE-001 — /rbm-knowledge/01-standards-authoritative/architecture/state-management-policy.md`
 - [ ] Applies-to section lists table.field pairs (or explicitly states “N/A” if the feature has no lifecycle state fields)
 
 **Fail ⇒ HALT**

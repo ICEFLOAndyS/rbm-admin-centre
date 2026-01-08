@@ -1,4 +1,4 @@
-# RBM Architecture Starter Pack (v2.04)
+# RBM Architecture Starter Pack (v2.0.5)
 
 Generated: 2025-12-28 15:37:30
 

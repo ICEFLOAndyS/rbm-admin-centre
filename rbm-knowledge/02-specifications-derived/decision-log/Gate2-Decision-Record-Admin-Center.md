@@ -10,20 +10,20 @@ Admin Centre
 Gate 2 — Feature Definition Approval
 
 ## Knowledge Baseline
-- Version: v2.04
-- Authority: rbm-knowledge/version
-- Precedence enforced per rbm-knowledge/knowledge-bootstrap.md
+- Version: v2.0.5
+- Authority: /rbm-knowledge/version
+- Precedence enforced per /rbm-knowledge/knowledge-bootstrap.md
 
 
 ## Policies Enforced
-- RBM-POL-STATE-001 — rbm-knowledge/01-standards-authoritative/architecture/state-management-policy.md
+- RBM-POL-STATE-001 — /rbm-knowledge/01-standards-authoritative/architecture/state-management-policy.md
 ## Related Decisions
 - Gate 0: RBM-GATE0-ADMIN-CENTER-001 (PASS with conditions)
 - Gate 1: RBM-GATE1-ADMIN-CENTER-001 (PASS)
 
 ## Authoritative Artefact Approved
 - Feature Definition (canonical):
-  rbm-knowledge/02-specifications-derived/admin-centre/admin-centre-feature-definition.md
+  /rbm-knowledge/02-specifications-derived/admin-centre/admin-centre-feature-definition.md
 
 ---
 
@@ -72,7 +72,7 @@ No deviations are permitted without a formally approved exception.
 
 ## Decision Authority
 ChatGPT Orchestrator Agent  
-(acting under RBM Knowledge Baseline v2.04)
+(acting under RBM Knowledge Baseline v2.0.5)
 
 ## Decision Date
 2026-01-05

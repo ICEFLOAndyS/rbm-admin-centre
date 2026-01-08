@@ -1,7 +1,7 @@
 # RBM Build Agent — Allowed & Forbidden Actions
 
 **File:** rbm-build-agent-constraints.md  
-**Knowledge Set:** rbm-knowledge v2.04 (session revisions applied)  
+**Knowledge Set:** rbm-knowledge v2.0.5 (session revisions applied)  
 **Status:** LOCKED / AUTHORITATIVE  
 **Audience:** ServiceNow IDE Build Agent  
 **Change Control:** Updates only when VERSION changes  
@@ -12,7 +12,7 @@
 
 Before generating any output, you MUST state:
 
-> “RBM Authority Map v2.04 acknowledged. Tier-1 standards enforced.”
+> “RBM Authority Map v2.0.5 acknowledged. Tier-1 standards enforced.”
 
 ---
 

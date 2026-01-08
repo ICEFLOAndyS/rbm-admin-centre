@@ -2,11 +2,11 @@
 
 ## Authority & Status
 - Feature: **Admin Centre**
-- Knowledge Baseline: **v2.04** (authoritative ZIP)
+- Knowledge Baseline: **v2.0.5** (authoritative ZIP)
 - Gate Status: **Gate 2 APPROVED**
-- Precedence: Subordinate to `rbm-knowledge/knowledge-bootstrap.md`, AUTHORITATIVE standards, governance & security policies, and RBM design system.
+- Precedence: Subordinate to `/rbm-knowledge/knowledge-bootstrap.md`, AUTHORITATIVE standards, governance & security policies, and RBM design system.
 
-This document defines the **mandatory ServiceNow IDE execution instructions** for building the Admin Centre feature using the approved **v2.04 Build Agent prompt pack**.
+This document defines the **mandatory ServiceNow IDE execution instructions** for building the Admin Centre feature using the approved **v2.0.5 Build Agent prompt pack**.
 
 ---
 
@@ -32,10 +32,10 @@ These instructions ensure that:
 ### 2.2 Knowledge Artefacts Available
 Confirm the following canonical artefacts are available locally or in-repo:
 
-- `rbm-knowledge/02-specifications-derived/admin-centre/admin-centre-feature-definition.md`
+- `/rbm-knowledge/02-specifications-derived/admin-centre/admin-centre-feature-definition.md`
 - Gate 0, Gate 1, Gate 2 decision records
 - Admin Centre agent artefacts pack
-- **Admin-Center-Build-Agent-Prompt-Pack-v2.04**
+- **Admin-Center-Build-Agent-Prompt-Pack-v2.0.5**
 
 If any artefact is missing → **STOP**.
 
@@ -162,7 +162,7 @@ No deviation is permitted without explicit approval.
 ## 10. Document Control
 
 - Location:  
-  `rbm-knowledge/02-specifications-derived/admin-centre/servicenow-ide-instructions.md`
+  `/rbm-knowledge/02-specifications-derived/admin-centre/servicenow-ide-instructions.md`
 - Owner: ChatGPT Orchestrator Agent
 - Status: Active
 

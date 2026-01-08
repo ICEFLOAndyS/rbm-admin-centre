@@ -1,7 +1,7 @@
 # Agent Invocation Contract — Feature Delivery
 
 ## Authority
-- Knowledge Baseline: v2.04
+- Knowledge Baseline: v2.0.5
 - Classification: AUTHORITATIVE
 - Precedence: This contract overrides all feature, prompt, and advisory content.
 - Purpose: Enforce deterministic agent participation and sequencing.

@@ -1,11 +1,11 @@
 # Gate-aware Execution Checklist — Agent Participation & Artefact Proof
 
 ## Authority
-- Knowledge Baseline: v2.04
+- Knowledge Baseline: v2.0.5
 - Subordinate to:
-  - `rbm-knowledge/knowledge-bootstrap.md`
-  - `rbm-knowledge/01-standards-authoritative/governance/agent-invocation-contract.md`
-  - `rbm-knowledge/01-standards-authoritative/governance/orchestrator-governance.md`
+  - `/rbm-knowledge/knowledge-bootstrap.md`
+  - `/rbm-knowledge/01-standards-authoritative/governance/agent-invocation-contract.md`
+  - `/rbm-knowledge/01-standards-authoritative/governance/orchestrator-governance.md`
 
 ## Purpose
 Enforce deterministic agent participation per gate and require artefact proof prior to gate approval and prompt generation.
@@ -22,7 +22,7 @@ Enforce deterministic agent participation per gate and require artefact proof pr
 - User journeys artefact (feature-scoped, canonical path recorded)
 
 ### Checklist
-- [ ] Feature intent exists under `rbm-knowledge/04-working-non-authoritative/<feature>/`
+- [ ] Feature intent exists under `/rbm-knowledge/04-working-non-authoritative/admin-centre/`
 - [ ] Personas artefact exists and is referenced by canonical path
 - [ ] User journeys artefact exists and is referenced by canonical path
 - [ ] No prohibited agents invoked
@@ -91,21 +91,21 @@ Before any ServiceNow IDE Build Agent invocation, the Orchestrator MUST run the 
 
 **macOS/Linux (bash):**
 ```bash
-python rbm-knowledge/tools/validators/preflight-validator.py --root . --feature <feature> | tee rbm-knowledge/04-working-non-authoritative/<feature>/preflight-report.generated.md
+python /rbm-knowledge/tools/validators/preflight-validator.py --root . --feature <feature> | tee /rbm-knowledge/04-working-non-authoritative/admin-centre/preflight-report.generated.md
 ```
 
 **Windows (PowerShell):**
 ```powershell
-python rbm-knowledge/tools/validators/preflight-validator.py --root . --feature <feature> | Tee-Object -FilePath rbm-knowledge/04-working-non-authoritative/<feature>/preflight-report.generated.md
+python /rbm-knowledge/tools/validators/preflight-validator.py --root . --feature <feature> | Tee-Object -FilePath /rbm-knowledge/04-working-non-authoritative/admin-centre/preflight-report.generated.md
 ```
 
 ### What it validates (minimum)
 - No ZIP-based prompt/artefact packs under:
-  - `rbm-knowledge/03-prompt-packs-derived/<feature>/`
+  - `/rbm-knowledge/03-prompt-packs-derived/admin-centre/ (example; replace admin-centre per feature)`
 - Build Agent prompt files exist as individual files:
   - `prompt-*.md`
 - Each Build Agent prompt references feature artefacts using full canonical paths:
-  - `rbm-knowledge/02-specifications-derived/<feature>/agent-artefacts/*.md`
+  - `/rbm-knowledge/02-specifications-derived/admin-centre/ (example; replace admin-centre per feature)agent-artefacts/*.md`
 - Every referenced artefact exists on disk (hard fail if missing)
 
 ### Stop condition
