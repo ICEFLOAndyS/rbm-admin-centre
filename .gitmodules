@@ -1,0 +1,3 @@
+[submodule "rbm-kb"]
+	path = rbm-kb
+	url = https://github.com/ICEFLOAndyS/rbm-kb.git
